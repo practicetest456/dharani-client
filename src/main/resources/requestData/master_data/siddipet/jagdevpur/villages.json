@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Jagdevpur",
+    "mandalId": 195,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 18
+  },
+  "villages": [
+    {
+      "id": 1009019,
+      "name": "Alirajapet",
+      "telugu": "అలిరాజ్ పేట్"
+    },
+    {
+      "id": 1009011,
+      "name": "Ananthsagar",
+      "telugu": "అనంతసాగర్"
+    },
+    {
+      "id": 1009008,
+      "name": "Baswapur",
+      "telugu": "బస్వాపూర్"
+    },
+    {
+      "id": 1009006,
+      "name": "Chatlapalle",
+      "telugu": "చాట్లపల్లి"
+    },
+    {
+      "id": 1009023,
+      "name": "Dharmaram",
+      "telugu": "ధర్మారం"
+    },
+    {
+      "id": 1009017,
+      "name": "Doulapur",
+      "telugu": "దౌలాపూర్"
+    },
+    {
+      "id": 1009018,
+      "name": "Gollapalle",
+      "telugu": "గోల్లపల్లి"
+    },
+    {
+      "id": 1009009,
+      "name": "Gopalpur",
+      "telugu": "గౌపాల్పూర్"
+    },
+    {
+      "id": 1009020,
+      "name": "Itikyal",
+      "telugu": "ఇటిక్యాల్"
+    },
+    {
+      "id": 1009021,
+      "name": "Jagdevpur",
+      "telugu": "జగదేవ్ పూర్"
+    },
+    {
+      "id": 1009016,
+      "name": "Kondapur",
+      "telugu": "కౌండాపూర్"
+    },
+    {
+      "id": 1009015,
+      "name": "Munigadapa",
+      "telugu": "మునిగడ్ప ."
+    },
+    {
+      "id": 1009022,
+      "name": "Peerlapalle",
+      "telugu": "పీర్లపల్లి"
+    },
+    {
+      "id": 1009013,
+      "name": "Teegul",
+      "telugu": "తీగుల్"
+    },
+    {
+      "id": 1009005,
+      "name": "Teegul Narsapur",
+      "telugu": "తీగుల్ నర్సాపూర్"
+    },
+    {
+      "id": 1009010,
+      "name": "Thimmapur",
+      "telugu": "తిమ్మాపూర్"
+    },
+    {
+      "id": 1009014,
+      "name": "Venkatapur[Bg]",
+      "telugu": "వెంకటాపూర్ బి"
+    },
+    {
+      "id": 1009007,
+      "name": "Wattipalle",
+      "telugu": "వట్పల్లి"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Markook",
+    "mandalId": 200,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 9
+  },
+  "villages": [
+    {
+      "id": 1014001,
+      "name": "Angadi Kistapur",
+      "telugu": "అంగడి కిష్టాపూర్"
+    },
+    {
+      "id": 1014002,
+      "name": "Cheberthy",
+      "telugu": "చేబర్తి"
+    },
+    {
+      "id": 1014008,
+      "name": "Damarakunta",
+      "telugu": "దామరకుంట"
+    },
+    {
+      "id": 1014004,
+      "name": "Erravalle",
+      "telugu": "యెర్రబల్లి"
+    },
+    {
+      "id": 1014009,
+      "name": "Karkapatla",
+      "telugu": "కర్కపట్ల"
+    },
+    {
+      "id": 1014007,
+      "name": "Markook",
+      "telugu": "మర్కుక్"
+    },
+    {
+      "id": 1014006,
+      "name": "Pamulaparthi",
+      "telugu": "పాములపర్తి"
+    },
+    {
+      "id": 1014005,
+      "name": "Sivar Venkatapur",
+      "telugu": "శివారు వెంకటాపూర్"
+    },
+    {
+      "id": 1014003,
+      "name": "Vardarajpur",
+      "telugu": "వరదరాజ్ పూర్"
+    }
+  ]
+}

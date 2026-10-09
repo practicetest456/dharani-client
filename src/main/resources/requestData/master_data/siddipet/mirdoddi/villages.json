@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "mirdoddi",
+    "mandalId": 201,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 9
+  },
+  "villages": [
+    {
+      "id": 1015009,
+      "name": "Alwal",
+      "telugu": "అల్వాల్"
+    },
+    {
+      "id": 1015008,
+      "name": "Andey",
+      "telugu": "అందె"
+    },
+    {
+      "id": 1015017,
+      "name": "Chepial",
+      "telugu": "చెప్యాల్"
+    },
+    {
+      "id": 1015006,
+      "name": "Dharmaram",
+      "telugu": "ధర్మారం"
+    },
+    {
+      "id": 1015004,
+      "name": "Kasulabad",
+      "telugu": "కాసులాబాద్"
+    },
+    {
+      "id": 1015007,
+      "name": "Kondapur",
+      "telugu": "కోండాపూర్"
+    },
+    {
+      "id": 1015010,
+      "name": "Lingupalle",
+      "telugu": "లింగుపల్లి"
+    },
+    {
+      "id": 1015011,
+      "name": "Mallupalle",
+      "telugu": "మల్లుపల్లి"
+    },
+    {
+      "id": 1015005,
+      "name": "Mirdoddi",
+      "telugu": "మిరుదొడ్డి"
+    }
+  ]
+}

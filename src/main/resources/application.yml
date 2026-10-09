@@ -1,0 +1,189 @@
+server:
+  port: 8080
+
+
+
+
+# ============================================================================
+########################### DHARANI API - START ############################
+# ============================================================================
+# =====================================================================
+# DHARANI API  (survey numbers + khata numbers, no captcha needed)
+#
+# URLs to call (plain GET, no body):
+#   Survey numbers of a village : http://localhost:8080/api/survey-numbers
+#   Whole village in one call   : http://localhost:8080/api/village-khata
+#   Khata numbers from txt file : http://localhost:8080/api/khata-numbers
+#   Test one survey number      : http://localhost:8080/api/khata-numbers/single?surveyNo=1/అ1
+#   Raw portal HTML (debug)     : http://localhost:8080/api/raw?surveyNo=1/అ1   (only if you added it)
+#
+# Override any value from the URL (anything you leave out comes from below):
+#   http://localhost:8080/api/village-khata?villId=1019004
+#   http://localhost:8080/api/khata-numbers/single?villId=1019006&surveyNo=601
+#
+# FLOW
+#   A) /api/survey-numbers
+#      1. DharaniController receives the call (villId optional)
+#      2. KhataService asks DharaniClient to GET <survey-url>?villId=..&flag=survey
+#      3. The portal replies with HTML <option> tags, Jsoup reads the values
+#      4. The list is returned as JSON and saved to survey-numbers-<villId>.txt in output-dir
+#   B) /api/village-khata  (everything in one call)
+#      1. Does step A to get all survey numbers of the village
+#      2. For each survey number it calls <base-url>?villId=..&flag=khatanos&surveyNo=..
+#         up to <concurrency> requests at the same time, each retried twice on failure
+#      3. Khata numbers are read from the returned <option> tags ("0" = "-- Select --" is skipped)
+#      4. Results come back as JSON in the same order and are saved to khata-results-<villId>.csv
+#   C) /api/khata-numbers
+#      Same as B, but the survey numbers come from <survey-file> instead of the portal.
+#   All calls send the cookies, referer and user-agent from this block.
+#
+# FILES (package com.example.dharani)
+#   config/DharaniProperties.java   reads this block
+#   config/RestClientConfig.java    HTTP client and timeouts
+#   client/DharaniClient.java       the actual calls to the portal
+#   service/KhataService.java       loops, parallel requests, parsing, CSV
+#   service/KhataResult.java        one result row (surveyNo, khataNos, error)
+#   web/DharaniController.java      the /api/... URLs above
+#   (the public-data API lives separately in the publicdata/ package)
+# =====================================================================
+
+dharani:
+  # Endpoint that returns the khata numbers for one survey number.
+  # Final call: <base-url>?villId=<vill-id>&flag=<flag>&surveyNo=<survey number>
+  base-url: "https://bhubharati.telangana.gov.in/getKhataNoCitizen"
+
+  # Endpoint that returns all survey numbers of one village.
+  # Final call: <survey-url>?villId=<vill-id>&flag=survey
+  survey-url: "https://bhubharati.telangana.gov.in/getSurveyCitizen"
+
+  # Default village code. Override per call with ?villId=... (no restart needed).
+  vill-id: "1019006"
+
+  # Fixed value the portal expects for the khata-number call. Don't change.
+  flag: "khatanos"
+
+  # Sent as the Referer header (the page the browser was on). The portal may reject calls without it.
+  referer: "https://bhubharati.telangana.gov.in/knowLandStatus"
+
+  # Text file with one survey number per line (UTF-8, Telugu letters are fine).
+  # "classpath:" = inside src/main/resources.
+  # For a file outside the project use: "file:C:/data/survey-numbers.txt"
+  survey-file: "classpath:requestData/villageIds/nancharpally-survey-numbers.txt"
+
+  # How many requests run at the same time.
+  # Higher = faster, but the portal may slow down or block you. Keep it moderate (5 to 10).
+  concurrency: 10
+
+  # Folder where result files are saved. "." = the folder you start the app from.
+  output-dir: "."
+
+  # Older setting. The newer code names the CSV khata-results-<villId>.csv inside output-dir,
+  # so this line may be unused. It does no harm to keep.
+  output-file: "khata-results.csv"
+
+  # Cookies sent with every request, copied from a browser session on the site.
+  cookies:
+    # Language the portal responds in (en = English).
+    org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE: "en"
+    # Google Analytics cookies. Not needed by the server, kept to look like a normal browser.
+    _ga: "GA1.1.1019741380.1791266407"
+    _ga_E04HDF3XQV: "GS2.1.s1791266407$o1$g1$t1791266419$j48$l0$h0"
+    # Server session ID. THE ONE THAT MATTERS: it expires after a while.
+    # Empty results or errors on every row = this is stale. Copy a fresh one from Chrome
+    # (lock icon > Cookies in use), paste it here and restart the app.
+    JSESSIONID: "u5cZs1UuQp0ChGA0UNpOzlIqi4LSFd-6bxK4Z8HH.dharani-web-prod01"
+
+  # Browser identity sent with every request, same as the Chrome you copied it from.
+  user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+
+  # Max time to wait while connecting to the portal before giving up.
+  connect-timeout: 10s
+
+  # Max time to wait for the portal's reply once connected.
+  read-timeout: 30s
+
+# WHEN EVERY ROW COMES BACK EMPTY
+#   The JSESSIONID above is stale, or the villId doesn't match the survey numbers
+#   (survey numbers from one village return nothing for another).
+ 
+
+
+#dharani:
+#  base-url: "https://bhubharati.telangana.gov.in/getKhataNoCitizen"
+#  survey-url: "https://bhubharati.telangana.gov.in/getSurveyCitizen"
+#  vill-id: "1019006"
+#  flag: "khatanos"
+#  referer: "https://bhubharati.telangana.gov.in/knowLandStatus"
+#  survey-file: "classpath:requestData/requestData/villageIds/nancharpally-survey-numbers.txt"
+#  # how many requests run at the same time
+#  concurrency: 10
+#  output-dir: "."
+#  output-file: "khata-results.csv"
+#  cookies:
+#    org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE: "en"
+#    _ga: "GA1.1.1019741380.1791266407"
+#    _ga_E04HDF3XQV: "GS2.1.s1791266407$o1$g1$t1791266419$j48$l0$h0"
+#    JSESSIONID: "u5cZs1UuQp0ChGA0UNpOzlIqi4LSFd-6bxK4Z8HH.dharani-web-prod01"
+#  user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+#  connect-timeout: 10s
+#  read-timeout: 30s
+# ============================================================================
+########################## DHARANI API - END ############################
+# ============================================================================
+
+
+
+
+
+
+# ============================================================================
+######################### PUBLIC-DATA API - START ############################
+# ============================================================================
+# PUBLIC-DATA API  (land details for one khata number)
+#
+# URLs to call (plain GET, no body):
+#   Readable page : http://localhost:8080/api/public-data/view
+#   Clean JSON    : http://localhost:8080/api/public-data/parsed
+#   Raw HTML      : http://localhost:8080/api/public-data/info
+#
+# Override any value from the URL (anything you leave out comes from below):
+#   http://localhost:8080/api/public-data/view?khataNoIdselect=1006
+#   http://localhost:8080/api/public-data/view?villageId=1019006&khataNoIdselect=1005
+#
+# FLOW
+#   1. You call GET /api/public-data/view
+#   2. PublicDataInfoController collects any query params you passed
+#   3. PublicDataService fills the missing ones from this block
+#   4. PublicDataClient sends  POST https://bhubharati.telangana.gov.in/getPublicDataInfo?<all params below>
+#      (empty body), using the cookies, referer and user-agent from the "dharani:" block above
+#   5. Portal replies with HTML; it is decoded as UTF-8 (so Telugu is not garbled)
+#   6. LandDetailsParser reads the label/value pairs (Pattadar Details, Land Details)
+#   7. /view -> LandDetailsHtmlRenderer builds the clean page
+#      /parsed -> returns the pairs as JSON
+#      /info -> returns the raw HTML
+#
+# WHERE THESE VALUES COME FROM IN THE BROWSER
+#   Open the site, make a search, find the getPublicDataInfo request, copy its query values.
+# =====================================================================
+
+public-data:
+  village-id: "1019004"
+  flag-to-search: "surveynumber"
+  search-data: "zNPu7s8elCxREc1fF6iihg=="
+  flagval: "district"
+  district: "10"
+  mandal: "205"
+  divi: ""
+  khata-no-idselect: "1005"
+  req-type: "Citizen"
+  captcha: "jXeeT67/4WVaUry9pCEf5Q=="
+
+# WHEN IT RETURNS "No land details found"
+#   searchData / captcha / JSESSIONID are stale. Make a fresh search in the browser,
+#   copy the new searchData and captcha into this block, copy the new JSESSIONID into
+#   dharani.cookies, then restart the app.
+
+
+# ============================================================================
+######################### PUBLIC-DATA API - END ############################
+# ============================================================================

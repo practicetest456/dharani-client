@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Mulug",
+    "mandalId": 202,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 24
+  },
+  "villages": [
+    {
+      "id": 1016020,
+      "name": "Achaipalle",
+      "telugu": "అచ్చయ్ పల్లి"
+    },
+    {
+      "id": 1016013,
+      "name": "Aliabad Adivimasjid",
+      "telugu": "అడవి మజీద్"
+    },
+    {
+      "id": 1016024,
+      "name": "Banda Mailaram",
+      "telugu": "బండమైలారం"
+    },
+    {
+      "id": 1016001,
+      "name": "Banda Thimmapur",
+      "telugu": "బండ తిమ్మాపూర్"
+    },
+    {
+      "id": 1016022,
+      "name": "Baswapuram",
+      "telugu": "బస్వాపూర్"
+    },
+    {
+      "id": 1016010,
+      "name": "Bhilampur",
+      "telugu": "బైలంపూర్"
+    },
+    {
+      "id": 1016016,
+      "name": "Chilla Sagar",
+      "telugu": "చీలసాగర్"
+    },
+    {
+      "id": 1016019,
+      "name": "Chinna Thimmapur",
+      "telugu": "చిన్నతిమ్మాపూర్"
+    },
+    {
+      "id": 1016021,
+      "name": "Dasarlapalle",
+      "telugu": "దాసర్ల పల్లి"
+    },
+    {
+      "id": 1016017,
+      "name": "Gangadharpalle",
+      "telugu": "గంగాధర్ పల్లి"
+    },
+    {
+      "id": 1016002,
+      "name": "Kokkonda",
+      "telugu": "కౌక్కౌండ"
+    },
+    {
+      "id": 1016012,
+      "name": "Kothial",
+      "telugu": "కౌట్టియాల్"
+    },
+    {
+      "id": 1016023,
+      "name": "Kothur",
+      "telugu": "కౌత్తూర్"
+    },
+    {
+      "id": 1016007,
+      "name": "Lakshmakkapalle",
+      "telugu": "లక్ష్మక్కపల్లి"
+    },
+    {
+      "id": 1016011,
+      "name": "Mandial",
+      "telugu": "మామిడియాల్"
+    },
+    {
+      "id": 1016008,
+      "name": "Mulug",
+      "telugu": "ములుగ్ ."
+    },
+    {
+      "id": 1016015,
+      "name": "Mustafa Guda",
+      "telugu": "ముస్తాఫగుడ"
+    },
+    {
+      "id": 1016014,
+      "name": "Narsampalle",
+      "telugu": "నర్సంపల్లి"
+    },
+    {
+      "id": 1016005,
+      "name": "Narsapur",
+      "telugu": "నర్సాపూర్"
+    },
+    {
+      "id": 1016004,
+      "name": "Singannaguda",
+      "telugu": "సింగన్నగూడ"
+    },
+    {
+      "id": 1016003,
+      "name": "Srirampur",
+      "telugu": "శ్రీరాంపూర్"
+    },
+    {
+      "id": 1016009,
+      "name": "Thanedharpalle",
+      "telugu": "ఠాణేధార్ పల్లి"
+    },
+    {
+      "id": 1016006,
+      "name": "Tuniki Bollaram",
+      "telugu": "తుంకి బౌల్లారం"
+    },
+    {
+      "id": 1016018,
+      "name": "Zapthi Singaipalle",
+      "telugu": "జప్తి సింగాయపల్లి"
+    }
+  ]
+}

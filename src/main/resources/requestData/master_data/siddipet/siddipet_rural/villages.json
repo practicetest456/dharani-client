@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Siddipet Rural",
+    "mandalId": 206,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 12
+  },
+  "villages": [
+    {
+      "id": 1020006,
+      "name": "Ankampet",
+      "telugu": "అంకంపేట్"
+    },
+    {
+      "id": 1020013,
+      "name": "Bussapur",
+      "telugu": "బుస్సాపూర్"
+    },
+    {
+      "id": 1020009,
+      "name": "Chinna Gundavalli",
+      "telugu": "చిన్న గుండవెల్లి"
+    },
+    {
+      "id": 1020005,
+      "name": "Chintamadaka",
+      "telugu": "చింతమడ్క"
+    },
+    {
+      "id": 1020012,
+      "name": "Irkode",
+      "telugu": "ఇర్కోడ్"
+    },
+    {
+      "id": 1020003,
+      "name": "Machapur [Patti Dubbak]",
+      "telugu": "మాచాపూర్"
+    },
+    {
+      "id": 1020008,
+      "name": "Pullur",
+      "telugu": "పుల్లూర్"
+    },
+    {
+      "id": 1020007,
+      "name": "Raghavapur",
+      "telugu": "రాఘవాపూర్"
+    },
+    {
+      "id": 1020010,
+      "name": "Raorukal",
+      "telugu": "రావురూకుల"
+    },
+    {
+      "id": 1020004,
+      "name": "Seetharampalle",
+      "telugu": "సీతారాంపల్లి"
+    },
+    {
+      "id": 1020011,
+      "name": "Tornal",
+      "telugu": "తోర్నాల్"
+    },
+    {
+      "id": 1020014,
+      "name": "Venkatapur",
+      "telugu": "వెంకటాపూర్"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+.classpath
+.project
+.settings/
+bin/
+.gradle/
+build/
+khata-results.csv
+``

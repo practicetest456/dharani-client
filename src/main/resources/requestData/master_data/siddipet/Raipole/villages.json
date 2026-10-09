@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Raipole",
+    "mandalId": 204,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 13
+  },
+  "villages": [
+    {
+      "id": 1018002,
+      "name": "Anajpur",
+      "telugu": "ఆనాజిపూర్"
+    },
+    {
+      "id": 1018010,
+      "name": "Ankireddipalli",
+      "telugu": "అంకిరెడ్డి పల్లి"
+    },
+    {
+      "id": 1018013,
+      "name": "Arepalle [Sivar Jaligao",
+      "telugu": "ఆరెపల్లి"
+    },
+    {
+      "id": 1018012,
+      "name": "Begumpet",
+      "telugu": "బేగంపేట"
+    },
+    {
+      "id": 1018004,
+      "name": "Chinna Masanpalle",
+      "telugu": "చిన్న మసాన్ పల్లి"
+    },
+    {
+      "id": 1018005,
+      "name": "Kothapalle",
+      "telugu": "కొత్తపల్లి"
+    },
+    {
+      "id": 1018009,
+      "name": "Lingareddipalle",
+      "telugu": "లింగారెడ్డిపల్లి"
+    },
+    {
+      "id": 1018003,
+      "name": "Mantoor",
+      "telugu": "మంతూర్"
+    },
+    {
+      "id": 1018006,
+      "name": "Ramaram",
+      "telugu": "రామారం"
+    },
+    {
+      "id": 1018008,
+      "name": "Ramasagar",
+      "telugu": "రాంసాగర్"
+    },
+    {
+      "id": 1018001,
+      "name": "Rayapole",
+      "telugu": "రాయపోల్"
+    },
+    {
+      "id": 1018007,
+      "name": "Waddepalle",
+      "telugu": "వడ్డెపల్లి"
+    },
+    {
+      "id": 1018011,
+      "name": "Yelkal",
+      "telugu": "యెల్కల్"
+    }
+  ]
+}

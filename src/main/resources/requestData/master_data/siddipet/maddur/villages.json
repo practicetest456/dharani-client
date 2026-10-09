@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Maddur",
+    "mandalId": 199,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 11
+  },
+  "villages": [
+    {
+      "id": 1013015,
+      "name": "Dharmaram",
+      "telugu": "ధర్మారం"
+    },
+    {
+      "id": 1013010,
+      "name": "Gagillapur",
+      "telugu": "గాగిల్లాపూర్"
+    },
+    {
+      "id": 1013019,
+      "name": "Ladnoor",
+      "telugu": "లద్నూర్"
+    },
+    {
+      "id": 1013016,
+      "name": "Lakkapalle",
+      "telugu": "లక్కపల్లి"
+    },
+    {
+      "id": 1013012,
+      "name": "Maddur",
+      "telugu": "మద్దూరు"
+    },
+    {
+      "id": 1013014,
+      "name": "Marmamula",
+      "telugu": "మర్మాముల"
+    },
+    {
+      "id": 1013011,
+      "name": "Narasaipalle",
+      "telugu": "నర్సాయపల్లి"
+    },
+    {
+      "id": 1013017,
+      "name": "Rebarthi",
+      "telugu": "రేబర్తి"
+    },
+    {
+      "id": 1013013,
+      "name": "Salakpoor",
+      "telugu": "సలాకపూర్"
+    },
+    {
+      "id": 1013009,
+      "name": "Vallampatla",
+      "telugu": "వల్లంపట్ల"
+    },
+    {
+      "id": 1013018,
+      "name": "Vangapalle",
+      "telugu": "వంగపల్లి"
+    }
+  ]
+}

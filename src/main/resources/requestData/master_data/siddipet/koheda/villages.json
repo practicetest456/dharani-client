@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Koheda",
+    "mandalId": 196,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 16
+  },
+  "villages": [
+    {
+      "id": 1010016,
+      "name": "Baswapur",
+      "telugu": "బస్వాపూర్"
+    },
+    {
+      "id": 1010009,
+      "name": "Gottalamitta",
+      "telugu": "గొట్లమిట్ట"
+    },
+    {
+      "id": 1010005,
+      "name": "Gundareddipalle",
+      "telugu": "గుండారెడ్డి పల్లి"
+    },
+    {
+      "id": 1010014,
+      "name": "Kachapur",
+      "telugu": "కాచపుర్"
+    },
+    {
+      "id": 1010008,
+      "name": "Koheda",
+      "telugu": "కోహెడ"
+    },
+    {
+      "id": 1010007,
+      "name": "Kurella",
+      "telugu": "కూరెల్ల"
+    },
+    {
+      "id": 1010012,
+      "name": "Nakkira Kommula",
+      "telugu": "నకిర కొమ్ముల"
+    },
+    {
+      "id": 1010010,
+      "name": "Narayanapur",
+      "telugu": "నారాయణ పూర్"
+    },
+    {
+      "id": 1010013,
+      "name": "Pariveda",
+      "telugu": "పరి వేద"
+    },
+    {
+      "id": 1010002,
+      "name": "Ramachandrapur",
+      "telugu": "రాంచంద్రాపూర్"
+    },
+    {
+      "id": 1010015,
+      "name": "Samudrala",
+      "telugu": "సముద్రాల"
+    },
+    {
+      "id": 1010004,
+      "name": "Sanigaram",
+      "telugu": "శనిగరం"
+    },
+    {
+      "id": 1010011,
+      "name": "Sriramulapalle",
+      "telugu": "శ్రీరాములపల్లి"
+    },
+    {
+      "id": 1010006,
+      "name": "Thangallapalle",
+      "telugu": "తంగళ్ళపల్లి"
+    },
+    {
+      "id": 1010001,
+      "name": "Varikolu",
+      "telugu": "వరి కోలు"
+    },
+    {
+      "id": 1010003,
+      "name": "Vinjapalle",
+      "telugu": "వింజ పల్లి"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Narayanraopet",
+    "mandalId": 618,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 5
+  },
+  "villages": [
+    {
+      "id": 1020016,
+      "name": "Gurralagondi",
+      "telugu": "గుర్రాలగొండి"
+    },
+    {
+      "id": 1020001,
+      "name": "Ibrahimpur",
+      "telugu": "ఇబ్రహీంపూర్"
+    },
+    {
+      "id": 1020015,
+      "name": "Jakkapur",
+      "telugu": "జక్కాపూర్"
+    },
+    {
+      "id": 1020017,
+      "name": "Malyal",
+      "telugu": "మల్యాల"
+    },
+    {
+      "id": 1020002,
+      "name": "Narayanraopet",
+      "telugu": "నారాయణరావ్ పేట్"
+    }
+  ]
+}

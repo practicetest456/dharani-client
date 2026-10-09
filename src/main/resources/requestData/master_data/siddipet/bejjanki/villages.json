@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Bejjanki",
+    "mandalId": 188,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 14
+  },
+  "villages": [
+    {
+      "id": 1002007,
+      "name": "Bejjanki",
+      "telugu": "బెజ్జంకి"
+    },
+    {
+      "id": 1002013,
+      "name": "Cheelapur",
+      "telugu": "చీలాపూర్"
+    },
+    {
+      "id": 1002008,
+      "name": "Dacharam",
+      "telugu": "దాచారం"
+    },
+    {
+      "id": 1002003,
+      "name": "Devakkapalle",
+      "telugu": "దేవక్కపల్లి"
+    },
+    {
+      "id": 1002009,
+      "name": "Gagillapur",
+      "telugu": "గాగిల్లాపూర్"
+    },
+    {
+      "id": 1002010,
+      "name": "Guggilla",
+      "telugu": "గుగ్గిళ్ల"
+    },
+    {
+      "id": 1002001,
+      "name": "Gundaram(P.S.)",
+      "telugu": "గుండారం"
+    },
+    {
+      "id": 1002006,
+      "name": "Kallepalle",
+      "telugu": "కల్లెపల్లి"
+    },
+    {
+      "id": 1002011,
+      "name": "Muthannapet",
+      "telugu": "ముత్తన్నపేట"
+    },
+    {
+      "id": 1002012,
+      "name": "Potharam",
+      "telugu": "పోతారం"
+    },
+    {
+      "id": 1002014,
+      "name": "Regulapalle",
+      "telugu": "రేగులపల్లి"
+    },
+    {
+      "id": 1002004,
+      "name": "Thotapalle",
+      "telugu": "తోటపల్లి"
+    },
+    {
+      "id": 1002002,
+      "name": "Vadlur Begumpet",
+      "telugu": "వడ్లూరు-బేగంపేట"
+    },
+    {
+      "id": 1002005,
+      "name": "Veerapur",
+      "telugu": "వీరాపూర్"
+    }
+  ]
+}

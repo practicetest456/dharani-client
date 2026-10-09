@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Chinnakodur",
+    "mandalId": 190,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 20
+  },
+  "villages": [
+    {
+      "id": 1004002,
+      "name": "Allipur",
+      "telugu": "అల్లీపూర్"
+    },
+    {
+      "id": 1004004,
+      "name": "Ananthasagar",
+      "telugu": "అనంతసాగర్"
+    },
+    {
+      "id": 1004014,
+      "name": "Chandlapur",
+      "telugu": "చంద్లాపూర్"
+    },
+    {
+      "id": 1004005,
+      "name": "Cherla Ankireddipalle",
+      "telugu": "చెర్ల అంకిరెడ్డి పల్లి"
+    },
+    {
+      "id": 1004010,
+      "name": "Chinnakodur",
+      "telugu": "చిన్నకోడూర్."
+    },
+    {
+      "id": 1004003,
+      "name": "Chowdaram",
+      "telugu": "చౌడారం"
+    },
+    {
+      "id": 1004012,
+      "name": "Gangapur",
+      "telugu": "గంగాపూర్"
+    },
+    {
+      "id": 1004019,
+      "name": "Gonepalle",
+      "telugu": "గోనెపల్లి"
+    },
+    {
+      "id": 1004017,
+      "name": "Ibrahimpur",
+      "telugu": "ఇబ్రహీంనగర్"
+    },
+    {
+      "id": 1004018,
+      "name": "Kothurpalle",
+      "telugu": "కస్తూరిపల్లి"
+    },
+    {
+      "id": 1004011,
+      "name": "Machapur",
+      "telugu": "మాచాపురం"
+    },
+    {
+      "id": 1004008,
+      "name": "Mallaram",
+      "telugu": "మల్లారం"
+    },
+    {
+      "id": 1004009,
+      "name": "Medipalle",
+      "telugu": "మేడిపల్లి"
+    },
+    {
+      "id": 1004020,
+      "name": "Oblapur",
+      "telugu": "ఒబులాపూర్"
+    },
+    {
+      "id": 1004015,
+      "name": "Peddakodur Kalan",
+      "telugu": "పెద్దకోడూర్"
+    },
+    {
+      "id": 1004013,
+      "name": "Ramancha",
+      "telugu": "రామంచ"
+    },
+    {
+      "id": 1004016,
+      "name": "Ramuni Patta",
+      "telugu": "రామునిపట్ల"
+    },
+    {
+      "id": 1004007,
+      "name": "Sikandlapur",
+      "telugu": "సికింద్లాపూర్"
+    },
+    {
+      "id": 1004006,
+      "name": "Sivampalle",
+      "telugu": "శివునిపల్లి"
+    },
+    {
+      "id": 1004001,
+      "name": "Vittalpur",
+      "telugu": "విఠలాపూర్"
+    }
+  ]
+}

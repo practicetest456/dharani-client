@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "description": "Siddipet Rural Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Siddipet (Urban)",
+	"mandalId": 205,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 12
+  },
+  "villages": [
+    {
+      "id": 1019005,
+      "name": "Bakrichapial",
+      "telugu": "బక్రిచెప్యాల్"
+    },
+    {
+      "id": 1019009,
+      "name": "Burugupalle",
+      "telugu": "బూరుగుపల్లి"
+    },
+    {
+      "id": 1019008,
+      "name": "Ensanpalle",
+      "telugu": "ఎన్సాన్ పల్లి"
+    },
+    {
+      "id": 1019002,
+      "name": "Imambad",
+      "telugu": "ఇమాంబాద్"
+    },
+    {
+      "id": 1019011,
+      "name": "Mandapalle",
+      "telugu": "మందపల్లి"
+    },
+    {
+      "id": 1019004,
+      "name": "Mittapalle",
+      "telugu": "మిట్టపల్లి"
+    },
+    {
+      "id": 1019006,
+      "name": "Nacharpalle",
+      "telugu": "నాంచారిపల్లి"
+    },
+    {
+      "id": 1019003,
+      "name": "Narsapur",
+      "telugu": "నర్సాపూర్"
+    },
+    {
+      "id": 1019007,
+      "name": "Ponnal",
+      "telugu": "పొన్నాల్"
+    },
+    {
+      "id": 1019001,
+      "name": "Siddipet[R]",
+      "telugu": "సిద్ది పేట"
+    },
+    {
+      "id": 1019010,
+      "name": "Tadkapalle",
+      "telugu": "తడ్కపల్లి"
+    },
+    {
+      "id": 1019012,
+      "name": "Velkatur",
+      "telugu": "వెల్కటూర్"
+    }
+  ]
+}

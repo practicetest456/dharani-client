@@ -1,0 +1,9 @@
+curl 'https://bhubharati.telangana.gov.in/getPublicDataInfo?villageId=1019004&flagToSearch=surveynumber&searchData=zNPu7s8elCxREc1fF6iihg%3D%3D&flagval=district&district=10&mandal=205&divi=&khataNoIdselect=1005&ReqType=Citizen&captcha=jXeeT67/4WVaUry9pCEf5Q==' \
+  -X 'POST' \
+  -H 'Accept: */*' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  -H 'Origin: https://bhubharati.telangana.gov.in' \
+  -H 'Referer: https://bhubharati.telangana.gov.in/knowLandStatus' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  --data-raw ''

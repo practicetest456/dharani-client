@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Gajwel",
+    "mandalId": 193,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 28
+  },
+  "villages": [
+    {
+      "id": 1007004,
+      "name": "Ahmadipur",
+      "telugu": "అహ్మదాపూర్"
+    },
+    {
+      "id": 1007016,
+      "name": "Akkaram",
+      "telugu": "అక్కారం"
+    },
+    {
+      "id": 1007027,
+      "name": "Arepalle [Sivar Bejgaon",
+      "telugu": "ఆరెపల్లి (యస్ బి)"
+    },
+    {
+      "id": 1007023,
+      "name": "Bangla Venkatapur",
+      "telugu": "బఁగ్లావెంకటపూర్"
+    },
+    {
+      "id": 1007010,
+      "name": "Bayyaram",
+      "telugu": "బయ్యారం"
+    },
+    {
+      "id": 1007009,
+      "name": "Bejgaon",
+      "telugu": "బెజగాం"
+    },
+    {
+      "id": 1007006,
+      "name": "Burugupalle",
+      "telugu": "బూర్గుపల్లి"
+    },
+    {
+      "id": 1007007,
+      "name": "Dacharam",
+      "telugu": "దాచారం"
+    },
+    {
+      "id": 1007014,
+      "name": "Datarpalle",
+      "telugu": "దాతర్పల్లి"
+    },
+    {
+      "id": 1007022,
+      "name": "Dharmareddipalle",
+      "telugu": "ధర్మారెడ్డిపల్లి"
+    },
+    {
+      "id": 1007001,
+      "name": "Dilalpur",
+      "telugu": "దిలాల్ పూర్"
+    },
+    {
+      "id": 1007020,
+      "name": "Gajwel",
+      "telugu": "గజ్వెల్"
+    },
+    {
+      "id": 1007028,
+      "name": "Giripally",
+      "telugu": "గిరిపల్లి"
+    },
+    {
+      "id": 1007015,
+      "name": "Havaiguda",
+      "telugu": "హవాయిగుడ"
+    },
+    {
+      "id": 1007021,
+      "name": "Jaligaon",
+      "telugu": "జాలిగాం"
+    },
+    {
+      "id": 1007013,
+      "name": "Kodakondla",
+      "telugu": "కోడకండ్ల"
+    },
+    {
+      "id": 1007003,
+      "name": "Kolgur",
+      "telugu": "కొల్గూర్్"
+    },
+    {
+      "id": 1007025,
+      "name": "Komatibanda",
+      "telugu": "కోమటిబండ"
+    },
+    {
+      "id": 1007011,
+      "name": "Kyasaram",
+      "telugu": "క్యాసారం"
+    },
+    {
+      "id": 1007024,
+      "name": "Maqta Masanpalle",
+      "telugu": "మక్తమన్సాన్ పల్లి"
+    },
+    {
+      "id": 1007019,
+      "name": "Mutrajpalle",
+      "telugu": "ముట్రాజ్్పల్లి"
+    },
+    {
+      "id": 1007008,
+      "name": "Pedched",
+      "telugu": "పిడిచేడ్"
+    },
+    {
+      "id": 1007018,
+      "name": "Pragnapur",
+      "telugu": "ప్రజ్ఖాపూర్"
+    },
+    {
+      "id": 1007012,
+      "name": "Rimmanguda",
+      "telugu": "రిమ్మనగూడ"
+    },
+    {
+      "id": 1007026,
+      "name": "Sangapur",
+      "telugu": "సంగాపూర్"
+    },
+    {
+      "id": 1007002,
+      "name": "Seripalle",
+      "telugu": "శెరిపల్లి"
+    },
+    {
+      "id": 1007005,
+      "name": "Singatam",
+      "telugu": "సింగ఼ాటం"
+    },
+    {
+      "id": 1007017,
+      "name": "Srigiripalle",
+      "telugu": "శ్రీగిరిపల్లి"
+    }
+  ]
+}

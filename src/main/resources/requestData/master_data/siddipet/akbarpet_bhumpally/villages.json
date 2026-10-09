@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Akbarpet-Bhoompally",
+    "mandalId": 632,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 13
+  },
+  "villages": [
+    {
+      "id": 1015014,
+      "name": "Almaspur",
+      "telugu": "అల్మాస్పూర్"
+    },
+    {
+      "id": 1015002,
+      "name": "Bhoompalle",
+      "telugu": "భూంపల్లి"
+    },
+    {
+      "id": 1006021,
+      "name": "Boppapur",
+      "telugu": "బౌప్పాపూర్"
+    },
+    {
+      "id": 1006025,
+      "name": "Chittapur",
+      "telugu": "చిట్టాపూర్"
+    },
+    {
+      "id": 1006024,
+      "name": "Chowdarpalle",
+      "telugu": "చొదర్ పల్లి"
+    },
+    {
+      "id": 1006023,
+      "name": "Engurthi",
+      "telugu": "యెనగుర్తి"
+    },
+    {
+      "id": 1015015,
+      "name": "Jangapalle",
+      "telugu": "జంగపల్లి"
+    },
+    {
+      "id": 1015013,
+      "name": "Khazipur",
+      "telugu": "ఖాజాపూర్"
+    },
+    {
+      "id": 1015001,
+      "name": "Kudavelle",
+      "telugu": "కూడవెల్లి"
+    },
+    {
+      "id": 1015003,
+      "name": "Mothey",
+      "telugu": "మొతె"
+    },
+    {
+      "id": 1006026,
+      "name": "Pothareddipet",
+      "telugu": "పోతారెడ్డి పేట్"
+    },
+    {
+      "id": 1015012,
+      "name": "Rudraram",
+      "telugu": "రుద్రారం"
+    },
+    {
+      "id": 1015016,
+      "name": "Veerareddipalle",
+      "telugu": "వీరారెడ్డిపల్లి"
+    }
+  ]
+}

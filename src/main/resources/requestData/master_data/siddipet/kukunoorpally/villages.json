@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Kukunoorpally",
+    "mandalId": 631,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 15
+  },
+  "villages": [
+    {
+      "id": 1009003,
+      "name": "Chinna Kistapur",
+      "telugu": "చిన్నకిష్టాపూర్"
+    },
+    {
+      "id": 1012016,
+      "name": "Errapalle",
+      "telugu": "యెర్రవల్లి"
+    },
+    {
+      "id": 1012015,
+      "name": "Konaipalle",
+      "telugu": "కోనాయి పల్లి"
+    },
+    {
+      "id": 1012021,
+      "name": "Kuknurpalle",
+      "telugu": "కుకునూరు పల్లి"
+    },
+    {
+      "id": 1012012,
+      "name": "Lakudaram",
+      "telugu": "లక్డారం"
+    },
+    {
+      "id": 1012013,
+      "name": "Madinipur",
+      "telugu": "మెదిన్ పూర్"
+    },
+    {
+      "id": 1012020,
+      "name": "Mangole",
+      "telugu": "మంగోల్"
+    },
+    {
+      "id": 1012014,
+      "name": "Mathapalle",
+      "telugu": "మత్ పల్లి"
+    },
+    {
+      "id": 1012019,
+      "name": "Muddapur",
+      "telugu": "ముద్దాపుర్"
+    },
+    {
+      "id": 1009001,
+      "name": "Ramachandrapur",
+      "telugu": "రాంచంద్రాపూర్"
+    },
+    {
+      "id": 1009012,
+      "name": "Rayavaram",
+      "telugu": "రాయివరం"
+    },
+    {
+      "id": 1012017,
+      "name": "Singaram",
+      "telugu": "సింగారం"
+    },
+    {
+      "id": 1012018,
+      "name": "Thipparam",
+      "telugu": "తిప్పారం"
+    },
+    {
+      "id": 1009002,
+      "name": "Venkatapur",
+      "telugu": "వెంకటాపూర్"
+    },
+    {
+      "id": 1009004,
+      "name": "Yellaiguda",
+      "telugu": "యెల్లాయ్గూడ"
+    }
+  ]
+}

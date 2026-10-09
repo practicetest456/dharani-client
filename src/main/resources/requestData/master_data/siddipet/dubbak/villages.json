@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Dubbak",
+    "mandalId": 192,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 21
+  },
+  "villages": [
+    {
+      "id": 1006020,
+      "name": "Akaram",
+      "telugu": "ఆకారం"
+    },
+    {
+      "id": 1006013,
+      "name": "Appanpalle",
+      "telugu": "అప్పనపల్లి"
+    },
+    {
+      "id": 1006003,
+      "name": "Arepalle",
+      "telugu": "ఆరెపల్లి"
+    },
+    {
+      "id": 1006004,
+      "name": "Cheekode",
+      "telugu": "ఛీకోడ్"
+    },
+    {
+      "id": 1006016,
+      "name": "Chervapur",
+      "telugu": "చెర్వాపూర్"
+    },
+    {
+      "id": 1006009,
+      "name": "Chillapur",
+      "telugu": "చెల్లాపూర్"
+    },
+    {
+      "id": 1006017,
+      "name": "Dharmajipet",
+      "telugu": "ధర్మాజి పేట్"
+    },
+    {
+      "id": 1006005,
+      "name": "Dubbak",
+      "telugu": "దుబ్బాక్్"
+    },
+    {
+      "id": 1006010,
+      "name": "Dumpalpalle",
+      "telugu": "దుంపలపల్లి"
+    },
+    {
+      "id": 1006001,
+      "name": "Gambheerpur",
+      "telugu": "గంభీర్ పూర్"
+    },
+    {
+      "id": 1006015,
+      "name": "Habshipur",
+      "telugu": "హబ్సిపూర్"
+    },
+    {
+      "id": 1006012,
+      "name": "Hasan Mirapur",
+      "telugu": "హసన్మీరాపూర్"
+    },
+    {
+      "id": 1006018,
+      "name": "Lachapet",
+      "telugu": "లచ్చాపేట్"
+    },
+    {
+      "id": 1006006,
+      "name": "Mallaipalle",
+      "telugu": "మల్లాయి పల్లి"
+    },
+    {
+      "id": 1006011,
+      "name": "Pedda Gundavelly",
+      "telugu": "పెద్దగుండవల్లి"
+    },
+    {
+      "id": 1006002,
+      "name": "Potharam",
+      "telugu": "పోతారం"
+    },
+    {
+      "id": 1006007,
+      "name": "Rajakkapet",
+      "telugu": "రాజక్కపేట్"
+    },
+    {
+      "id": 1006019,
+      "name": "Ramakkapet",
+      "telugu": "రామక్కపేట్"
+    },
+    {
+      "id": 1006022,
+      "name": "Shivrampur",
+      "telugu": "శివరాంపూర్్"
+    },
+    {
+      "id": 1006014,
+      "name": "Thimmapur",
+      "telugu": "తిమ్మాపుర్"
+    },
+    {
+      "id": 1006008,
+      "name": "Yellapur",
+      "telugu": "యెల్లాపూర్"
+    }
+  ]
+}

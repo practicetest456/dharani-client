@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Cheriyal",
+    "mandalId": 189,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 14
+  },
+  "villages": [
+    {
+      "id": 1003005,
+      "name": "Akunoor",
+      "telugu": "ఆకునూరు"
+    },
+    {
+      "id": 1013002,
+      "name": "Arjunapatla",
+      "telugu": "అర్జునపట్ల"
+    },
+    {
+      "id": 1003006,
+      "name": "Cheriyal",
+      "telugu": "చేర్యాల"
+    },
+    {
+      "id": 1003002,
+      "name": "Chityal",
+      "telugu": "చిట్యాల"
+    },
+    {
+      "id": 1003011,
+      "name": "Chunchankota",
+      "telugu": "చుంచనకోట"
+    },
+    {
+      "id": 1003003,
+      "name": "Danampalle",
+      "telugu": "దానంపల్లి"
+    },
+    {
+      "id": 1003004,
+      "name": "Dommata",
+      "telugu": "దొమ్మాట"
+    },
+    {
+      "id": 1003010,
+      "name": "Kadavergu",
+      "telugu": "కడవేర్గు"
+    },
+    {
+      "id": 1013001,
+      "name": "Kamalayapalle",
+      "telugu": "కమలాయపల్లి"
+    },
+    {
+      "id": 1003012,
+      "name": "Musthyala",
+      "telugu": "ముస్త్యాల"
+    },
+    {
+      "id": 1003008,
+      "name": "Nagapuri",
+      "telugu": "నాగపురి"
+    },
+    {
+      "id": 1003009,
+      "name": "Peddarajupeta",
+      "telugu": "పెదరాజుపేట"
+    },
+    {
+      "id": 1003001,
+      "name": "Tadoor",
+      "telugu": "తాడూరు"
+    },
+    {
+      "id": 1003007,
+      "name": "Vechareni",
+      "telugu": "వేచరేని"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Thoguta",
+    "mandalId": 207,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 16
+  },
+  "villages": [
+    {
+      "id": 1021009,
+      "name": "Bandarpally",
+      "telugu": "బందార్ పల్లి"
+    },
+    {
+      "id": 1021016,
+      "name": "Chandapur",
+      "telugu": "చందాపూర్"
+    },
+    {
+      "id": 1021001,
+      "name": "Ghanapur",
+      "telugu": "ఘన్్పూర్్"
+    },
+    {
+      "id": 1021011,
+      "name": "Gudikandula",
+      "telugu": "గుడికందుల"
+    },
+    {
+      "id": 1021013,
+      "name": "Japtilingareddipally",
+      "telugu": "జప్తి లింగారెడ్డి పల్లి"
+    },
+    {
+      "id": 1021010,
+      "name": "Kangal",
+      "telugu": "కంన్్గల్్"
+    },
+    {
+      "id": 1021012,
+      "name": "Lingampet",
+      "telugu": "లింగంపేట్"
+    },
+    {
+      "id": 1021014,
+      "name": "Lingapur",
+      "telugu": "లింగాపూర్"
+    },
+    {
+      "id": 1021005,
+      "name": "Pallipahad",
+      "telugu": "పల్లె పహాడ్"
+    },
+    {
+      "id": 1021008,
+      "name": "Peddamasanpally",
+      "telugu": "పెద్దమాసాన్ పల్లి"
+    },
+    {
+      "id": 1021002,
+      "name": "Thoguta",
+      "telugu": "తోగ఼ుట"
+    },
+    {
+      "id": 1021006,
+      "name": "Thukkapur",
+      "telugu": "తుక్కాపూర్"
+    },
+    {
+      "id": 1021004,
+      "name": "Vemulaghat",
+      "telugu": "వేముల్ ఘాట్"
+    },
+    {
+      "id": 1021015,
+      "name": "Venkatraopet",
+      "telugu": "వెంకట్ రావుపేట"
+    },
+    {
+      "id": 1021007,
+      "name": "Yellareddipet",
+      "telugu": "యెల్లారెడ్డి పేట"
+    },
+    {
+      "id": 1021003,
+      "name": "Yetigaddakistapur",
+      "telugu": "ఏటిగడ్డ కిష్టాపురం"
+    }
+  ]
+}

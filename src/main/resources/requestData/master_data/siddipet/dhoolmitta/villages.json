@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Dhoolmitta",
+    "mandalId": 621,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 8
+  },
+  "villages": [
+    {
+      "id": 1013008,
+      "name": "Bairanpalle",
+      "telugu": "బైరాన్ పల్లి"
+    },
+    {
+      "id": 1013007,
+      "name": "Bekkal",
+      "telugu": "బెక్కల్"
+    },
+    {
+      "id": 1013005,
+      "name": "Dhoolmitta",
+      "telugu": "దూల్మిట్ట"
+    },
+    {
+      "id": 1013003,
+      "name": "Jalapalle",
+      "telugu": "జాలెపల్లి"
+    },
+    {
+      "id": 1013021,
+      "name": "Kondapur",
+      "telugu": "కొండాపూర్"
+    },
+    {
+      "id": 1013020,
+      "name": "Kootigal",
+      "telugu": "కూటిగల్"
+    },
+    {
+      "id": 1013004,
+      "name": "Lingapur",
+      "telugu": "లింగాపూర్"
+    },
+    {
+      "id": 1013006,
+      "name": "Thornala",
+      "telugu": "తోరనాల"
+    }
+  ]
+}

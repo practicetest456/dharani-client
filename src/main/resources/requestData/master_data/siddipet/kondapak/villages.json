@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Kondapak",
+    "mandalId": 198,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 11
+  },
+  "villages": [
+    {
+      "id": 1012003,
+      "name": "Ankireddipalle",
+      "telugu": "అంకిరెడ్డిపల్లి"
+    },
+    {
+      "id": 1012004,
+      "name": "Bandaram",
+      "telugu": "బందారం"
+    },
+    {
+      "id": 1012002,
+      "name": "Duddada",
+      "telugu": "దుద్దెడ"
+    },
+    {
+      "id": 1012009,
+      "name": "Giraipalle",
+      "telugu": "గిరాయి పల్లి"
+    },
+    {
+      "id": 1012010,
+      "name": "Kondapak",
+      "telugu": "కొండపాక్"
+    },
+    {
+      "id": 1012001,
+      "name": "Marpadga",
+      "telugu": "మర్పడగ"
+    },
+    {
+      "id": 1012008,
+      "name": "Sirsingandla",
+      "telugu": "సిరిసింగండ్ల"
+    },
+    {
+      "id": 1012011,
+      "name": "Thimmareddipalle",
+      "telugu": "తిమ్మారెడ్డి పల్లి"
+    },
+    {
+      "id": 1012006,
+      "name": "Velikattu",
+      "telugu": "వెల్లికట్ట"
+    },
+    {
+      "id": 1012005,
+      "name": "Viswanathapalle",
+      "telugu": "విశ్వనాత్ పల్లి"
+    },
+    {
+      "id": 1012007,
+      "name": "Zapthi Nacharam",
+      "telugu": "జప్తినాచారం"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+    "metadata": {
+        "description": "Telangana District Master Data",
+        "source": "Bhubharati",
+        "entity": "District",
+        "purpose": "District dropdown values used in Bhubharati APIs",
+        "lastUpdated": "08-10-2026",
+        "totalDistricts": 32
+    },
+    "districts": [
+        {
+            "id": 13,
+            "name": "Adilabad",
+            "telugu": "ఆదిలాబాద్"
+        },
+        {
+            "id": 27,
+            "name": "Bhadradri Kothagudem",
+            "telugu": "భద్రాద్రి కొత్తగూడెం"
+        },
+        {
+            "id": 35,
+            "name": "Hanumakonda",
+            "telugu": "హనుమకొండ"
+        },
+        {
+            "id": 18,
+            "name": "Jagtial",
+            "telugu": "జగిత్యాల్"
+        },
+        {
+            "id": 23,
+            "name": "Jangoan",
+            "telugu": "జనగాం"
+        },
+        {
+            "id": 24,
+            "name": "Jayashankar Bhupalpalli",
+            "telugu": "జయశంకర్ భూపాలపల్లి"
+        },
+        {
+            "id": 2,
+            "name": "Jogulamba Gadwal",
+            "telugu": "జోగులాంబ గద్వాల"
+        },
+        {
+            "id": 12,
+            "name": "Kamareddy",
+            "telugu": "కామారెడ్డి"
+        },
+        {
+            "id": 17,
+            "name": "Karimnagar",
+            "telugu": "కరీంనగర్"
+        },
+        {
+            "id": 26,
+            "name": "Khammam",
+            "telugu": "ఖమ్మం"
+        },
+        {
+            "id": 16,
+            "name": "Kumuram Bheem (Asifabad)",
+            "telugu": "కుమురం భీమ్ (ఆసిఫాబాద్)"
+        },
+        {
+            "id": 25,
+            "name": "Mahabubabad",
+            "telugu": "మహబూబాబాద్"
+        },
+        {
+            "id": 1,
+            "name": "Mahabubnagar",
+            "telugu": "మహబూబ్ నగర్"
+        },
+        {
+            "id": 15,
+            "name": "Mancherial",
+            "telugu": "మంచిర్యాల్"
+        },
+        {
+            "id": 8,
+            "name": "Medak",
+            "telugu": "మెదక్"
+        },
+        {
+            "id": 6,
+            "name": "Medchal-Malkajigiri",
+            "telugu": "మేడ్చల్-మల్కాజిగిరి"
+        },
+        {
+            "id": 33,
+            "name": "Mulug",
+            "telugu": "ములుగు"
+        },
+        {
+            "id": 3,
+            "name": "Nagarkurnool",
+            "telugu": "నాగర్ కర్నూల్"
+        },
+        {
+            "id": 28,
+            "name": "Nalgonda",
+            "telugu": "నల్గొండ"
+        },
+        {
+            "id": 32,
+            "name": "Narayanpet",
+            "telugu": "నారయణ పేట్"
+        },
+        {
+            "id": 14,
+            "name": "Nirmal",
+            "telugu": "నిర్మల్"
+        },
+        {
+            "id": 11,
+            "name": "Nizamabad",
+            "telugu": "నిజామాబాద్"
+        },
+        {
+            "id": 20,
+            "name": "Peddapalli",
+            "telugu": "పెద్దపల్లి"
+        },
+        {
+            "id": 19,
+            "name": "Rajanna Sircilla",
+            "telugu": "రాజన్నసిరిసిల్ల"
+        },
+        {
+            "id": 5,
+            "name": "Rangareddy",
+            "telugu": "రంగా రెడ్డి"
+        },
+        {
+            "id": 9,
+            "name": "Sangareddy",
+            "telugu": "సంగారెడ్డి"
+        },
+        {
+            "id": 10,
+            "name": "Siddipet",
+            "telugu": "సిద్దిపేట్"
+        },
+        {
+            "id": 29,
+            "name": "Suryapet",
+            "telugu": "సూర్యాపేట"
+        },
+        {
+            "id": 7,
+            "name": "Vikarabad",
+            "telugu": "వికారాబాద్"
+        },
+        {
+            "id": 4,
+            "name": "Wanaparthy",
+            "telugu": "వనపర్తి"
+        },
+        {
+            "id": 34,
+            "name": "Warangal",
+            "telugu": "వరంగల్"
+        },
+        {
+            "id": 30,
+            "name": "Yadadri Bhuvanagiri",
+            "telugu": "యాదాద్రి భువనగిరి"
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Akkannapet",
+    "mandalId": 187,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 14
+  },
+  "villages": [
+    {
+      "id": 1001010,
+      "name": "Akkannapeta",
+      "telugu": "అక్కన్నపేట"
+    },
+    {
+      "id": 1001006,
+      "name": "Anthakkapeta",
+      "telugu": "అంతక్ పేట్"
+    },
+    {
+      "id": 1001007,
+      "name": "Choutapalle",
+      "telugu": "చౌట పల్లి"
+    },
+    {
+      "id": 1001003,
+      "name": "Dongala Dharmaram",
+      "telugu": "దొంగల ధర్మారం"
+    },
+    {
+      "id": 1001011,
+      "name": "Gandipalle",
+      "telugu": "గండి పల్లి"
+    },
+    {
+      "id": 1001005,
+      "name": "Gouravelli",
+      "telugu": "గౌర వెల్లి"
+    },
+    {
+      "id": 1001001,
+      "name": "Jangaon",
+      "telugu": "జనగాం"
+    },
+    {
+      "id": 1001014,
+      "name": "Katkur",
+      "telugu": "కట్కూర్"
+    },
+    {
+      "id": 1001008,
+      "name": "Kesavapur",
+      "telugu": "కేశవా పూర్"
+    },
+    {
+      "id": 1001009,
+      "name": "Mallampalle",
+      "telugu": "మల్లం పల్లి"
+    },
+    {
+      "id": 1001004,
+      "name": "Nandaram",
+      "telugu": "నందారం"
+    },
+    {
+      "id": 1001013,
+      "name": "Potharam (J)",
+      "telugu": "పోతారం (జె.)"
+    },
+    {
+      "id": 1001012,
+      "name": "Ramavaram",
+      "telugu": "రామ వరం"
+    },
+    {
+      "id": 1001002,
+      "name": "Regonda",
+      "telugu": "రేగొండ"
+    }
+  ]
+}

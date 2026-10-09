@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Komaravelli",
+    "mandalId": 197,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 9
+  },
+  "villages": [
+    {
+      "id": 1011006,
+      "name": "Ainapur",
+      "telugu": "అయినపూర్"
+    },
+    {
+      "id": 1011003,
+      "name": "Gouraipalle",
+      "telugu": "గౌరయ పల్లి"
+    },
+    {
+      "id": 1011008,
+      "name": "Guruvannapeta",
+      "telugu": "గురవన్నపేట"
+    },
+    {
+      "id": 1011001,
+      "name": "Kistampeta",
+      "telugu": "కిస్టంపేట"
+    },
+    {
+      "id": 1011004,
+      "name": "Komaravelly",
+      "telugu": "కొమురవెల్లి"
+    },
+    {
+      "id": 1011002,
+      "name": "Marrimuchala",
+      "telugu": "మర్రిముస్త్యాల"
+    },
+    {
+      "id": 1011009,
+      "name": "Posanpalle",
+      "telugu": "పోసానపల్లి"
+    },
+    {
+      "id": 1011005,
+      "name": "Ramsagar",
+      "telugu": "రాంసాగర్"
+    },
+    {
+      "id": 1011007,
+      "name": "Thapaspalle",
+      "telugu": "తాపాస్ పల్లి"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Nanganoor",
+    "mandalId": 203,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 21
+  },
+  "villages": [
+    {
+      "id": 1017013,
+      "name": "Akkanepalle",
+      "telugu": "అక్కెనపల్లి"
+    },
+    {
+      "id": 1017011,
+      "name": "Ankushapur",
+      "telugu": "అంక్షాపూర్"
+    },
+    {
+      "id": 1017004,
+      "name": "Baddipadaga",
+      "telugu": "బద్దిపడగ"
+    },
+    {
+      "id": 1017014,
+      "name": "Gatlamallial",
+      "telugu": "గట్ల మల్యాల"
+    },
+    {
+      "id": 1017016,
+      "name": "Ghanpur",
+      "telugu": "ఘనపూర్"
+    },
+    {
+      "id": 1017019,
+      "name": "Khanapur",
+      "telugu": "ఖానాపూర్"
+    },
+    {
+      "id": 1017017,
+      "name": "Khata",
+      "telugu": "ఖాతా"
+    },
+    {
+      "id": 1017008,
+      "name": "Konaipalle",
+      "telugu": "కోనాయి పల్లి"
+    },
+    {
+      "id": 1017015,
+      "name": "Kondamrajpalle",
+      "telugu": "కొండంరాజ్్ పల్లి"
+    },
+    {
+      "id": 1017006,
+      "name": "Maqdumpur",
+      "telugu": "మఖ్దుంపూర్"
+    },
+    {
+      "id": 1017001,
+      "name": "Mundrai",
+      "telugu": "మున్రాయి"
+    },
+    {
+      "id": 1017018,
+      "name": "Nagrajpalle",
+      "telugu": "నాగరాజ్ పల్లి"
+    },
+    {
+      "id": 1017012,
+      "name": "Nanganur",
+      "telugu": "నంగునూరు."
+    },
+    {
+      "id": 1017021,
+      "name": "Narmetta - Maisampally",
+      "telugu": "నర్మటే - మైసంపల్లి"
+    },
+    {
+      "id": 1017010,
+      "name": "Narmetta - Narmetta",
+      "telugu": "నర్మెట - నర్మెట"
+    },
+    {
+      "id": 1017003,
+      "name": "Palamakula",
+      "telugu": "పాలమాకుల"
+    },
+    {
+      "id": 1017002,
+      "name": "Rajagopalpet",
+      "telugu": "రాజ్ గోపాల్ పేట"
+    },
+    {
+      "id": 1017005,
+      "name": "Rampur",
+      "telugu": "రాంపూర్"
+    },
+    {
+      "id": 1017009,
+      "name": "Thimmaipalle",
+      "telugu": "తిమ్మాయి పల్లి"
+    },
+    {
+      "id": 1017020,
+      "name": "Venkatapur - Muradabad",
+      "telugu": "వెంకటపూర్ - మురదబాడ్"
+    },
+    {
+      "id": 1017007,
+      "name": "VENKATAPUR - VENKATAPUR",
+      "telugu": "వెంకటపూర్ - వెంకటాపూర్"
+    }
+  ]
+}

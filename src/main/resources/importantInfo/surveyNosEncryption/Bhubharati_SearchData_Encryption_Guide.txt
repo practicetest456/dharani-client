@@ -1,0 +1,183 @@
+BHUBHARATI searchData ENCRYPTION GUIDE
+======================================
+
+Purpose
+-------
+Generate the encrypted searchData value used for a survey number.
+
+Verified example:
+Survey number : 1147
+Encrypted     : GToOfYzvSJq3GxwzolIGXw==
+URL encoded   : GToOfYzvSJq3GxwzolIGXw%3D%3D
+
+Encryption settings
+-------------------
+Algorithm : AES-128-CBC
+Padding   : PKCS7
+Output    : Base64
+Key       : u/Gu5posvwDsXUnV5Zaq4g==
+IV        : 5D9r9ZVzEYYgha93/aUK2w==
+
+============================================================
+METHOD 1: CHROME CONSOLE USING CRYPTOJS
+============================================================
+
+1. Open Chrome.
+2. Press F12.
+3. Select Console.
+4. If Chrome gives a paste warning, manually type:
+
+allow pasting
+
+5. Press Enter.
+6. Load CryptoJS by pasting this code:
+
+var s = document.createElement('script');
+s.src = 'https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js';
+document.head.appendChild(s);
+
+7. After the script has loaded, paste this code:
+
+var rkEncryptionKey =
+    CryptoJS.enc.Base64.parse('u/Gu5posvwDsXUnV5Zaq4g==');
+
+var rkEncryptionIv =
+    CryptoJS.enc.Base64.parse('5D9r9ZVzEYYgha93/aUK2w==');
+
+var encrypted = CryptoJS.AES.encrypt(
+    '1147',
+    rkEncryptionKey,
+    {
+        mode: CryptoJS.mode.CBC,
+        padding: CryptoJS.pad.Pkcs7,
+        iv: rkEncryptionIv
+    }
+);
+
+console.log(encrypted.ciphertext.toString(CryptoJS.enc.Base64));
+
+Expected output:
+
+GToOfYzvSJq3GxwzolIGXw==
+
+To encode another survey number, replace '1147' with the required value.
+
+============================================================
+METHOD 2: REUSABLE CRYPTOJS FUNCTION
+============================================================
+
+After CryptoJS is loaded, paste this function once:
+
+function encryptSurveyNo(value) {
+    var key = CryptoJS.enc.Base64.parse(
+        'u/Gu5posvwDsXUnV5Zaq4g=='
+    );
+
+    var iv = CryptoJS.enc.Base64.parse(
+        '5D9r9ZVzEYYgha93/aUK2w=='
+    );
+
+    var encrypted = CryptoJS.AES.encrypt(
+        String(value),
+        key,
+        {
+            mode: CryptoJS.mode.CBC,
+            padding: CryptoJS.pad.Pkcs7,
+            iv: iv
+        }
+    );
+
+    return encrypted.ciphertext.toString(CryptoJS.enc.Base64);
+}
+
+Usage:
+
+encryptSurveyNo('1147');
+
+Expected output:
+
+GToOfYzvSJq3GxwzolIGXw==
+
+Generate multiple values:
+
+for (let i = 1140; i <= 1150; i++) {
+    console.log(i + ' -> ' + encryptSurveyNo(String(i)));
+}
+
+============================================================
+METHOD 3: NODE.JS WITHOUT CRYPTOJS
+============================================================
+
+Create a file named encode.js with this content:
+
+const crypto = require('crypto');
+
+const surveyNumber = process.argv[2] || '1147';
+const key = Buffer.from(
+    'u/Gu5posvwDsXUnV5Zaq4g==',
+    'base64'
+);
+const iv = Buffer.from(
+    '5D9r9ZVzEYYgha93/aUK2w==',
+    'base64'
+);
+
+const cipher = crypto.createCipheriv('aes-128-cbc', key, iv);
+let encrypted = cipher.update(surveyNumber, 'utf8', 'base64');
+encrypted += cipher.final('base64');
+
+console.log('Survey number : ' + surveyNumber);
+console.log('searchData    : ' + encrypted);
+console.log('URL encoded   : ' + encodeURIComponent(encrypted));
+
+Open Command Prompt in the same folder and run:
+
+node encode.js 1147
+
+Expected output:
+
+Survey number : 1147
+searchData    : GToOfYzvSJq3GxwzolIGXw==
+URL encoded   : GToOfYzvSJq3GxwzolIGXw%3D%3D
+
+To encode another survey number:
+
+node encode.js 1148
+
+============================================================
+METHOD 4: VERIFY FROM BHUBHARATI NETWORK REQUEST
+============================================================
+
+1. Open the Bhubharati Land Details Search page.
+2. Select District, Mandal, Village, Survey Number and Khata Number.
+3. Enter the current CAPTCHA.
+4. Press F12 and select Network.
+5. Click Fetch on the page.
+6. In Network, select the getPublicDataInfo request.
+7. Open Headers and inspect Request URL.
+8. Copy the searchData parameter.
+
+For survey number 1147, the captured value was:
+
+GToOfYzvSJq3GxwzolIGXw==
+
+Important notes
+---------------
+1. Base64 output must be URL encoded when inserted into a URL:
+   = becomes %3D
+   + becomes %2B
+   / becomes %2F
+
+2. searchData is only the encrypted survey number.
+
+3. A working getPublicDataInfo request can also require current values for:
+   - villageId
+   - district
+   - mandal
+   - khataNoIdselect
+   - captcha
+   - session cookies
+
+4. CAPTCHA and session values can expire. Use fresh values from the active browser session.
+
+5. Use this only for authorized access and normal site workflows. Do not attempt to bypass CAPTCHA, session validation, access controls, or rate limits.

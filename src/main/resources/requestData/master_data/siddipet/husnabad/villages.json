@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Husnabad",
+    "mandalId": 194,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 11
+  },
+  "villages": [
+    {
+      "id": 1008004,
+      "name": "Husnabad",
+      "telugu": "హుస్నా బాద్"
+    },
+    {
+      "id": 1008003,
+      "name": "Kuchanpalle",
+      "telugu": "కూచన పల్లి"
+    },
+    {
+      "id": 1008005,
+      "name": "Madudha",
+      "telugu": "మడత"
+    },
+    {
+      "id": 1008009,
+      "name": "Mirzapur",
+      "telugu": "మిర్జా పూర్"
+    },
+    {
+      "id": 1008006,
+      "name": "Mohammadapur",
+      "telugu": "మహమ్మదా పూర్"
+    },
+    {
+      "id": 1008007,
+      "name": "Nagaram",
+      "telugu": "నాగారం"
+    },
+    {
+      "id": 1008002,
+      "name": "Pandilla",
+      "telugu": "పందిల్ల"
+    },
+    {
+      "id": 1008010,
+      "name": "Potharam (S)",
+      "telugu": "పోతారం (యస్.)"
+    },
+    {
+      "id": 1008001,
+      "name": "Potlapalle",
+      "telugu": "పొట్ల పల్లి"
+    },
+    {
+      "id": 1008011,
+      "name": "Thotapalle (S)",
+      "telugu": "తోట పల్లి (యస్.)"
+    },
+    {
+      "id": 1008008,
+      "name": "Ummapur",
+      "telugu": "ఉమ్మా పూర్"
+    }
+  ]
+}

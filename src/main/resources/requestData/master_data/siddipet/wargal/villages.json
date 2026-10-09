@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Wargal",
+    "mandalId": 208,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 22
+  },
+  "villages": [
+    {
+      "id": 1022018,
+      "name": "Amberpet",
+      "telugu": "అంబర్ పేట్"
+    },
+    {
+      "id": 1022015,
+      "name": "Ananthagiripalle",
+      "telugu": "అనంతగిరి పల్లి"
+    },
+    {
+      "id": 1022013,
+      "name": "Chandapur",
+      "telugu": "చందాపూర్"
+    },
+    {
+      "id": 1022011,
+      "name": "Girmapur",
+      "telugu": "గిర్మాపూర్"
+    },
+    {
+      "id": 1022008,
+      "name": "Gouraram",
+      "telugu": "గొరారం ."
+    },
+    {
+      "id": 1022010,
+      "name": "Govindapur",
+      "telugu": "గోవిందాపూర్"
+    },
+    {
+      "id": 1022004,
+      "name": "Jabbapur",
+      "telugu": "జబ్బాపూర్"
+    },
+    {
+      "id": 1022006,
+      "name": "Kondaipalle",
+      "telugu": "కౌండాయి పల్లి"
+    },
+    {
+      "id": 1022012,
+      "name": "Madharam",
+      "telugu": "మాదారం"
+    },
+    {
+      "id": 1022002,
+      "name": "Majidpalle",
+      "telugu": "మజీద్పల్లి"
+    },
+    {
+      "id": 1022022,
+      "name": "Meenjipeta",
+      "telugu": "మీనాజిపేట్"
+    },
+    {
+      "id": 1022003,
+      "name": "Mentur",
+      "telugu": "నెమ్టూర్"
+    },
+    {
+      "id": 1022005,
+      "name": "Mylaram",
+      "telugu": "మైలారం మక్త"
+    },
+    {
+      "id": 1022001,
+      "name": "Nacharam",
+      "telugu": "నాచారం"
+    },
+    {
+      "id": 1022016,
+      "name": "Ramachandrapur",
+      "telugu": "రాంచంద్రాపూర్"
+    },
+    {
+      "id": 1022019,
+      "name": "Shakaram",
+      "telugu": "షాకారం"
+    },
+    {
+      "id": 1022007,
+      "name": "Singaipalle",
+      "telugu": "సింగాయి పల్లి"
+    },
+    {
+      "id": 1022017,
+      "name": "Sitarampalle",
+      "telugu": "సీతారాంపల్లి"
+    },
+    {
+      "id": 1022020,
+      "name": "Tunkikhalasa",
+      "telugu": "తుంకి కాల్స"
+    },
+    {
+      "id": 1022021,
+      "name": "Tunki Makta",
+      "telugu": "తుంకిమక్త"
+    },
+    {
+      "id": 1022014,
+      "name": "Veluru",
+      "telugu": "వెల్లూర్"
+    },
+    {
+      "id": 1022009,
+      "name": "Wargal",
+      "telugu": "వర్గల్ ."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Village Master Data",
+    "source": "Bhubharati",
+    "entity": "Village",
+    "purpose": "Village dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "mandal": "Doultabad",
+    "mandalId": 191,
+    "lastUpdated": "09-10-2026",
+    "totalVillages": 20
+  },
+  "villages": [
+    {
+      "id": 1005017,
+      "name": "Appaipalle",
+      "telugu": "అప్పాయిపల్లి"
+    },
+    {
+      "id": 1005012,
+      "name": "Chandampalle",
+      "telugu": "చందంపల్లి"
+    },
+    {
+      "id": 1005008,
+      "name": "Deepayampalle",
+      "telugu": "దీపాంపల్లి"
+    },
+    {
+      "id": 1005003,
+      "name": "Dommat",
+      "telugu": "దొమ్మాట"
+    },
+    {
+      "id": 1005001,
+      "name": "Doultabad",
+      "telugu": "దౌల్తాబాద్"
+    },
+    {
+      "id": 1005009,
+      "name": "Godugupalle",
+      "telugu": "గొడుగుపల్లి"
+    },
+    {
+      "id": 1005020,
+      "name": "Govindapur",
+      "telugu": "గోవిందాపూర్"
+    },
+    {
+      "id": 1005013,
+      "name": "Indupiriyal",
+      "telugu": "ఇందుప్రియాల్"
+    },
+    {
+      "id": 1005007,
+      "name": "Konapur",
+      "telugu": "కోనాపూర్ ఇజ్ర"
+    },
+    {
+      "id": 1005002,
+      "name": "Lingarajpalle",
+      "telugu": "లింగరాజ్ పల్లి"
+    },
+    {
+      "id": 1005016,
+      "name": "Machanpalle",
+      "telugu": "మాచన్ పల్లి"
+    },
+    {
+      "id": 1005010,
+      "name": "Mohamadshapur",
+      "telugu": "మహ్మద్ షాపూర్"
+    },
+    {
+      "id": 1005005,
+      "name": "Mubaraspur",
+      "telugu": "ముబారస్ పూర్"
+    },
+    {
+      "id": 1005014,
+      "name": "Narasampalle [Patti Dom",
+      "telugu": "నర్సంపల్లి"
+    },
+    {
+      "id": 1005018,
+      "name": "Rangampet",
+      "telugu": "రంగంపేట్"
+    },
+    {
+      "id": 1005015,
+      "name": "Seethrampalle",
+      "telugu": "సీతారాంపల్లి"
+    },
+    {
+      "id": 1005006,
+      "name": "Seripalle Bandaram",
+      "telugu": "సేరిపల్లి బందారం"
+    },
+    {
+      "id": 1005004,
+      "name": "Surampalle",
+      "telugu": "సూరంపల్లి"
+    },
+    {
+      "id": 1005011,
+      "name": "Tirmalapur",
+      "telugu": "తిరుమలాపూర్"
+    },
+    {
+      "id": 1005019,
+      "name": "Upperpalle",
+      "telugu": "ఉప్పర్పల్లి"
+    }
+  ]
+}

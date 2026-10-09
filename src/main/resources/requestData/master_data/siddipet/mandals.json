@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "description": "Siddipet Mandal Master Data",
+    "source": "Bhubharati",
+    "entity": "Mandal",
+    "purpose": "Mandal dropdown values used in Bhubharati APIs",
+    "district": "Siddipet",
+    "districtId": 10,
+    "lastUpdated": "08-10-2026",
+    "totalMandals": 26
+  },
+  "mandals": [
+    {
+      "id": 632,
+      "name": "Akbarpet-Bhoompally",
+      "telugu": "అక్బర్‌పేట-భూంపల్లి"
+    },
+    {
+      "id": 187,
+      "name": "Akkannapet",
+      "telugu": "అక్కన్నపేట"
+    },
+    {
+      "id": 188,
+      "name": "Bejjanki",
+      "telugu": "బెజ్జంకి"
+    },
+    {
+      "id": 189,
+      "name": "Cheriyal",
+      "telugu": "చేర్యాల"
+    },
+    {
+      "id": 190,
+      "name": "Chinnakodur",
+      "telugu": "చిన్నకోడూర్"
+    },
+    {
+      "id": 621,
+      "name": "Dhoolmitta",
+      "telugu": "ధూల్మిట్టా"
+    },
+    {
+      "id": 191,
+      "name": "Doultabad",
+      "telugu": "దౌల్తాబాద్"
+    },
+    {
+      "id": 192,
+      "name": "Dubbak",
+      "telugu": "దుబ్బాక"
+    },
+    {
+      "id": 193,
+      "name": "Gajwel",
+      "telugu": "గజ్వెల్"
+    },
+    {
+      "id": 194,
+      "name": "Husnabad",
+      "telugu": "హుస్నాబాద్"
+    },
+    {
+      "id": 195,
+      "name": "Jagdevpur",
+      "telugu": "జగదేవ్ పూర్"
+    },
+    {
+      "id": 196,
+      "name": "Koheda",
+      "telugu": "కోహెడ"
+    },
+    {
+      "id": 197,
+      "name": "Komuravelli",
+      "telugu": "కొమురవెల్లి"
+    },
+    {
+      "id": 198,
+      "name": "Kondapak",
+      "telugu": "కొండపాక"
+    },
+    {
+      "id": 631,
+      "name": "Kukunoorpally",
+      "telugu": "కుకునూరు పల్లి"
+    },
+    {
+      "id": 199,
+      "name": "Maddur",
+      "telugu": "మద్దూరు"
+    },
+    {
+      "id": 200,
+      "name": "Markook",
+      "telugu": "మర్కుక్"
+    },
+    {
+      "id": 201,
+      "name": "Mirdoddi",
+      "telugu": "మిర్ దొడ్డి"
+    },
+    {
+      "id": 202,
+      "name": "Mulug",
+      "telugu": "ములుగు"
+    },
+    {
+      "id": 203,
+      "name": "Nanganoor",
+      "telugu": "నంగునూరు"
+    },
+    {
+      "id": 618,
+      "name": "Narayanraopet",
+      "telugu": "నారాయణరావుపేట్"
+    },
+    {
+      "id": 204,
+      "name": "Raipole",
+      "telugu": "రాయపోల్"
+    },
+    {
+      "id": 206,
+      "name": "Siddipet Rural",
+      "telugu": "సిద్దిపేట (రూరల్)"
+    },
+    {
+      "id": 205,
+      "name": "Siddipet (Urban)",
+      "telugu": "సిద్దిపేట (అర్బన్)"
+    },
+    {
+      "id": 207,
+      "name": "Thoguta",
+      "telugu": "తొగుట"
+    },
+    {
+      "id": 208,
+      "name": "Wargal",
+      "telugu": "వర్గల్"
+    }
+  ]
+}
