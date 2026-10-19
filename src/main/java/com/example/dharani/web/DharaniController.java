@@ -14,21 +14,22 @@ import com.example.dharani.service.KhataService;
 @RequestMapping("/api")
 public class DharaniController {
 
-    private final KhataService service;
+	private final KhataService service;
 
-    public DharaniController(KhataService service) {
-        this.service = service;
-    }
+	public DharaniController(KhataService service) {
+		this.service = service;
+	}
 
-    /** Runs through every line in survey-numbers.txt. */
-    @GetMapping("/khata-numbers")
-    public List<KhataResult> all() {
-        return service.fetchAllFromFile();
-    }
+	/** Runs through every line in survey-numbers.txt. */
+	@GetMapping("/khata-numbers")
+	public List<KhataResult> all() {
+		return service.fetchAllFromFile();
+	}
 
-    /** Test a single survey number: /api/khata-numbers/single?surveyNo=859/2 */
-    @GetMapping("/khata-numbers/single")
-    public KhataResult single(@RequestParam String surveyNo) {
-        return service.fetchOne(surveyNo);
-    }
+	/** Test a single survey number: /api/khata-numbers/single?surveyNo=859/2 */
+	@GetMapping("/khata-numbers/single")
+	public KhataResult single(@RequestParam("surveyNo") String surveyNo,
+			@RequestParam(name = "villageId", required = false) String villageId) {
+		return service.fetchOne(surveyNo, villageId);
+	}
 }

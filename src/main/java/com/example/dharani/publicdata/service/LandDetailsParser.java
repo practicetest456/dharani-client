@@ -8,14 +8,14 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.springframework.stereotype.Component;
 
-import com.example.dharani.publicdata.model.LandDetailsResult;
+import com.example.dharani.common.model.Ror1BLandDetails;
 
 @Component
 public class LandDetailsParser {
 
-    public LandDetailsResult parse(String html) {
+    public Ror1BLandDetails parse(String html) {
         Document doc = Jsoup.parse(html == null ? "" : html);
-        return new LandDetailsResult(
+        return new Ror1BLandDetails(
                 section(doc, "Pattadar Details"),
                 section(doc, "Land Details"));
     }

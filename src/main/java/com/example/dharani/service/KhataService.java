@@ -41,45 +41,53 @@ public class KhataService {
         this.resourceLoader = resourceLoader;
     }
 
-    /** Reads all survey numbers, calls the portal in parallel, keeps file order, saves CSV. */
-    public List<KhataResult> fetchAllFromFile() {
-        List<String> surveyNos = readSurveyNumbers();
-        int total = surveyNos.size();
-        long start = System.currentTimeMillis();
-        log.info("Starting {} survey numbers with concurrency={}", total, props.concurrency());
+	/**
+	 * Reads all survey numbers, calls the portal in parallel, keeps file order,
+	 * saves CSV.
+	 */
+	public List<KhataResult> fetchAllFromFile() {
+		List<String> surveyNos = readSurveyNumbers();
+		List<KhataResult> results = fetchSurveyKhataNos(surveyNos, null);
+		return results;
+	}
 
-        Semaphore permits = new Semaphore(props.concurrency());
-        AtomicInteger done = new AtomicInteger();
-        List<CompletableFuture<KhataResult>> futures = new ArrayList<>();
+	public List<KhataResult> fetchSurveyKhataNos(List<String> surveyNos, String villageId) {
+		int total = surveyNos.size();
+		long start = System.currentTimeMillis();
+		log.info("Starting {} survey numbers with concurrency={}", total, props.concurrency());
 
-        try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
-            for (String surveyNo : surveyNos) {
-                futures.add(CompletableFuture.supplyAsync(() -> {
-                    permits.acquireUninterruptibly();
-                    try {
-                        return fetchOne(surveyNo);
-                    } finally {
-                        permits.release();
-                        int n = done.incrementAndGet();
-                        if (n % 100 == 0 || n == total) {
-                            log.info("Progress {}/{}", n, total);
-                        }
-                    }
-                }, executor));
-            }
-        }
+		Semaphore permits = new Semaphore(props.concurrency());
+		AtomicInteger done = new AtomicInteger();
+		List<CompletableFuture<KhataResult>> futures = new ArrayList<>();
 
-        List<KhataResult> results = futures.stream().map(CompletableFuture::join).toList();
-        log.info("Finished {} in {} sec", total, (System.currentTimeMillis() - start) / 1000);
-        writeCsv(results);
-        return results;
-    }
+		try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
+			for (String surveyNo : surveyNos) {
+				futures.add(CompletableFuture.supplyAsync(() -> {
+					permits.acquireUninterruptibly();
+					try {
+						return fetchOne(surveyNo, villageId);
+					} finally {
+						permits.release();
+						int n = done.incrementAndGet();
+						if (n % 100 == 0 || n == total) {
+							log.info("Progress {}/{}", n, total);
+						}
+					}
+				}, executor));
+			}
+		}
 
-    public KhataResult fetchOne(String surveyNo) {
+		List<KhataResult> results = futures.stream().map(CompletableFuture::join).toList();
+		log.info("Finished {} in {} sec", total, (System.currentTimeMillis() - start) / 1000);
+		// writeCsv(results);
+		return results;
+	}
+
+	public KhataResult fetchOne(String surveyNo, String villageId) {
         Exception last = null;
         for (int attempt = 0; attempt <= MAX_RETRIES; attempt++) {
             try {
-                String html = client.fetchOptionsHtml(surveyNo);
+                String html = client.fetchOptionsHtml(surveyNo, villageId);
                 return new KhataResult(surveyNo, extractOptionValues(html), null);
             } catch (Exception e) {
                 last = e;

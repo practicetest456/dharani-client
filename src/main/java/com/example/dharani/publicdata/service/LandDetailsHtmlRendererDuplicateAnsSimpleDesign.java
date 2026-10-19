@@ -5,14 +5,14 @@ import java.util.Map;
 import org.jsoup.nodes.Entities;
 import org.springframework.stereotype.Component;
 
-import com.example.dharani.publicdata.model.LandDetailsResult;
+import com.example.dharani.common.model.Ror1BLandDetails;
 
 /** Simple UI design for land details. */
 
 @Component
 public class LandDetailsHtmlRendererDuplicateAnsSimpleDesign {
 
-    public String render(LandDetailsResult r) {
+    public String render(Ror1BLandDetails r) {
         StringBuilder sb = new StringBuilder();
         sb.append("""
                 <!DOCTYPE html>

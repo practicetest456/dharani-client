@@ -1,0 +1,147 @@
+# ============================================================================
+#################### H2 Database Configuration - START #######################
+# ============================================================================
+#
+# PURPOSE:
+# This file contains all H2 database-related configuration.
+#
+# WHEN TO USE:
+# Enable the "h2" Spring profile when you want to:
+# - Create/connect to the local H2 database
+# - Execute db/schema.sql
+# - Execute SQL files under resources/db
+# - Use the H2 Console
+#
+# WHEN NOT TO USE:
+# Do not enable the "h2" profile when H2/database functionality
+# is not required.
+#
+# ============================================================================
+
+
+spring:
+
+  # ==========================================================
+  # H2 Database Configuration
+  #
+  # Database file:
+  # ./data/bhubharati.mv.db
+  # ==========================================================
+  datasource:
+    url: jdbc:h2:file:./data/bhubharati;AUTO_SERVER=TRUE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+
+
+  # ==========================================================
+  # Database Initialization
+  #
+  # Execution Order:
+  #
+  # 1. db/schema.sql
+  # 2. db/districts/*.sql
+  # 3. db/mandals/*.sql
+  # 4. db/villages/*.sql
+  # 5. db/surveys/*.sql
+  #
+  # SQL files can remain under resources/db.
+  # They are executed when this H2 configuration is active.
+  # ==========================================================
+  sql:
+    init:
+      mode: always
+
+      # Creates database tables
+      schema-locations:
+        - classpath:db/schema.sql
+
+      # Loads master data
+      data-locations:
+        - classpath*:db/districts/*.sql
+        - classpath*:db/mandals/*.sql
+        - classpath*:db/villages/*.sql
+        - classpath*:db/surveys/*.sql
+
+      # Required for Telugu and other Unicode data
+      encoding: UTF-8
+
+
+  # ==========================================================
+  # JPA Configuration
+  #
+  # Tables are created using schema.sql.
+  # Hibernate should not create/modify the tables.
+  # ==========================================================
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+    open-in-view: false
+
+
+  # ==========================================================
+  # H2 Console Configuration
+  #
+  # Browser:
+  # http://localhost:8080/h2-console
+  #
+  # Login:
+  #
+  # Driver Class : org.h2.Driver
+  # JDBC URL     : jdbc:h2:file:./data/bhubharati
+  # User Name    : sa
+  # Password     : leave empty
+  #
+  # Useful Queries:
+  #
+  # SELECT * FROM district;
+  # SELECT * FROM mandal;
+  # SELECT * FROM village;
+  # SELECT * FROM survey_number;
+  # ==========================================================
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+
+# ============================================================================
+##################### H2 Database Reset Configuration ########################
+# ============================================================================
+#
+# PURPOSE:
+# Controls whether the existing H2 database should be deleted
+# and created again from scratch.
+#
+# false = NORMAL USE
+#         Keep ./data/bhubharati.mv.db and existing data.
+#
+# true  = RESET DATABASE
+#         Delete the existing database before H2 starts.
+#         schema.sql and configured data SQL files will then
+#         populate a fresh database.
+#
+# USE true WHEN:
+# - schema.sql structure changes
+# - columns are added/removed/renamed
+# - tables are added/removed/renamed
+# - old database structure causes startup errors
+# - you intentionally want all master data reloaded
+#
+# IMPORTANT:
+# Change this back to false after the database is rebuilt.
+#
+# NOTE:
+# Java startup logic is required to perform the actual deletion.
+# This property only controls that logic.
+# ============================================================================
+
+bhubharati:
+  database:
+    reset-on-startup: false
+
+
+# ============================================================================
+##################### H2 Database Configuration - END ########################
+# ============================================================================

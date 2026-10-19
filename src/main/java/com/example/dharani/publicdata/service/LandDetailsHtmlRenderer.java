@@ -10,7 +10,7 @@ import java.util.Map;
 import org.jsoup.nodes.Entities;
 import org.springframework.stereotype.Component;
 
-import com.example.dharani.publicdata.model.LandDetailsResult;
+import com.example.dharani.common.model.Ror1BLandDetails;
 
 @Component
 public class LandDetailsHtmlRenderer {
@@ -82,7 +82,7 @@ public class LandDetailsHtmlRenderer {
             }
             """;
 
-    public String render(LandDetailsResult r) {
+    public String render(Ror1BLandDetails r) {
         StringBuilder sb = new StringBuilder();
         sb.append("<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\">")
           .append("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">")

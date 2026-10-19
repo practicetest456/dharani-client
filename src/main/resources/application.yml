@@ -1,6 +1,59 @@
+# ============================================================================
+######################## Application Configuration - START ###################
+# ============================================================================
+
+spring:
+
+  # ==========================================================
+  # Application Name
+  # ==========================================================
+  application:
+    name: bhubharati
+
+  # ==========================================================
+  # Spring Profile Configuration
+  #
+  # Controls whether application-h2.yml is loaded.
+  #
+  # TO USE H2:
+  #   Keep:
+  #     active: h2
+  #
+  # TO NOT USE H2:
+  #   Comment these two lines: or change to -  active: none
+  #
+  #     profiles:
+  #       active: h2
+  #
+  # When "h2" is active:
+  #   application.yml
+  #        +
+  #   application-h2.yml
+  #
+  # are loaded together.
+  # ==========================================================
+
+  profiles:
+    active: none
+
+# ============================================================
+# Server Configuration
+# ============================================================
+
 server:
   port: 8080
 
+  # UTF-8 encoding required for Telugu and other Unicode content.
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+
+# ============================================================================
+######################### Application Configuration - END ####################
+# ============================================================================
 
 
 
@@ -91,16 +144,16 @@ dharani:
     # Server session ID. THE ONE THAT MATTERS: it expires after a while.
     # Empty results or errors on every row = this is stale. Copy a fresh one from Chrome
     # (lock icon > Cookies in use), paste it here and restart the app.
-    JSESSIONID: "u5cZs1UuQp0ChGA0UNpOzlIqi4LSFd-6bxK4Z8HH.dharani-web-prod01"
+    JSESSIONID: "VoQwgqlTA0SQBNjKq4cCRO5hRdlIPqeR1mMNFQtL.dharani-app-prod03"
 
   # Browser identity sent with every request, same as the Chrome you copied it from.
   user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
 
-  # Max time to wait while connecting to the portal before giving up.
-  connect-timeout: 10s
+  # Max time to wait to establish connection to Bhubharati portal before giving up.
+  connect-timeout: 15s
 
-  # Max time to wait for the portal's reply once connected.
-  read-timeout: 30s
+  # Max time to wait for the Bhubharati portal's reply once connected.
+  read-timeout: 60s
 
 # WHEN EVERY ROW COMES BACK EMPTY
 #   The JSESSIONID above is stale, or the villId doesn't match the survey numbers
@@ -167,7 +220,7 @@ dharani:
 # =====================================================================
 
 public-data:
-  village-id: "1019004"
+  village-id: "1019006"
   flag-to-search: "surveynumber"
   search-data: "zNPu7s8elCxREc1fF6iihg=="
   flagval: "district"
@@ -176,7 +229,7 @@ public-data:
   divi: ""
   khata-no-idselect: "1005"
   req-type: "Citizen"
-  captcha: "jXeeT67/4WVaUry9pCEf5Q=="
+  captcha: "rBqJxrSIQsQQI6HxsN1oeQ=="
 
 # WHEN IT RETURNS "No land details found"
 #   searchData / captcha / JSESSIONID are stale. Make a fresh search in the browser,
@@ -187,3 +240,44 @@ public-data:
 # ============================================================================
 ######################### PUBLIC-DATA API - END ############################
 # ============================================================================
+
+
+#=============================================================================
+############# GENERATED Files(PDF/Json/...) STORAGE - START ##################
+# ============================================================================
+
+# Configuration for generated document storage
+app:
+  storage:
+    # Base directory for storing generated ROR 1-B PDF files.
+    # Default: ./storage/ror1bs/generated-pdfs
+    # Production: Set APP_STORAGE_ROOT to a persistent storage directory.
+    ror1b: ${APP_STORAGE_ROOT:./storage}/ror1bs/generated/pdf
+
+#=============================================================================
+############# GENERATED Files(PDF/Json/...) STORAGE - START ##################
+# ============================================================================
+
+
+
+bhubharati:
+  base-url: https://bhubharati.telangana.gov.in
+  referer: https://bhubharati.telangana.gov.in/knowLandStatus
+
+  connection:
+    connect-timeout-ms: 10000
+    response-timeout-seconds: 60
+
+    # Supports large Bhubharati HTML responses.
+    # Keep bounded to protect application memory.
+    max-in-memory-size-mb: 50
+
+    # Reuse connections instead of opening a new connection
+    # for every Survey -> Khata request.
+    max-connections: 50
+
+  concurrency:
+
+    # Maximum simultaneous Khata requests.
+    # Increase carefully based on Bhubharati behavior.
+    khata-requests: 10
