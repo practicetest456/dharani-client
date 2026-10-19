@@ -161,7 +161,7 @@ public class RorController {
 	 * @return a ResponseEntity containing the streamed PDF with appropriate headers
 	 * @throws ResponseStatusException if no matching ROR-1B records are found
 	 * 
-	 * Example: http://localhost:8080/api/ror1b/optimized-pdf/pdf/generate?districtId=10&mandalId=205&villageId=1019006&khataNumbers=346
+	 * Example: http://localhost:8080/api/ror1b/optimized-pdf/json/generate?districtId=10&mandalId=205&villageId=1019006&khataNumbers=346
 	 */
 	@GetMapping("/generate/json")
 	public List<Ror1BLandDetails> generateRor1BJson(

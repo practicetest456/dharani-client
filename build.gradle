@@ -24,7 +24,6 @@ dependencies {
     implementation 'org.jsoup:jsoup:1.21.2'
     implementation 'com.microsoft.playwright:playwright:1.47.0'
     
-    implementation 'org.springframework.boot:spring-boot-starter-web'
     runtimeOnly 'com.h2database:h2'
     
     testImplementation 'org.springframework.boot:spring-boot-starter-test'

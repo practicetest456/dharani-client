@@ -11,6 +11,7 @@ import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -332,7 +333,7 @@ public class RorService {
 				}
 			}
 		}
-
+		filteredList.sort(Comparator.comparing((KhataResult r) -> r.khataNos().get(0)));
 		List<Ror1BLandDetails> ror1BLandDetailsList = publicDataService.fetchParsedForAllSurveys(filteredList,
 				String.valueOf(villageId), String.valueOf(mandalId), String.valueOf(districtId));
 		
