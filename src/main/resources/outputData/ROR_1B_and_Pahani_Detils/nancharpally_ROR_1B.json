@@ -14669,7 +14669,7 @@
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Ongoing transaction on Survey no / Sub-division no with application number 2600582435 in Mutation/Succession/NALA process"
+            "Transaction Status": "--"
         },
         "empty": false
     },
@@ -17360,7 +17360,7 @@
             "Classification of Land": "Magani/ Thari",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Ongoing transaction on Survey no / Sub-division no with application number 2600582435 in Mutation/Succession/NALA process"
+            "Transaction Status": "--"
         },
         "empty": false
     },
@@ -18303,7 +18303,7 @@
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Ongoing transaction on Survey no / Sub-division no with application number 2600582435 in Mutation/Succession/NALA process"
+            "Transaction Status": "--"
         },
         "empty": false
     },
@@ -18457,14 +18457,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.0300",
-            "Survey No./ Sub-Division No.": "119/ఐ1",
+            "Total Extent (Ac. Gts)": "0.0125",
+            "Survey No./ Sub-Division No.": "119/ఐ1/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024925 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0175",
+            "Survey No./ Sub-Division No.": "119/ఐ1/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -18894,14 +18917,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.0400",
-            "Survey No./ Sub-Division No.": "119/ఘ1/2",
+            "Total Extent (Ac. Gts)": "0.0150",
+            "Survey No./ Sub-Division No.": "119/ఘ1/2/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024921 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0250",
+            "Survey No./ Sub-Division No.": "119/ఘ1/2/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -20136,14 +20182,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.2700",
-            "Survey No./ Sub-Division No.": "131/అ",
+            "Total Extent (Ac. Gts)": "0.1600",
+            "Survey No./ Sub-Division No.": "131/అ/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024962 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.1100",
+            "Survey No./ Sub-Division No.": "131/అ/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -20182,14 +20251,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.1700",
-            "Survey No./ Sub-Division No.": "132/అ",
+            "Total Extent (Ac. Gts)": "0.0200",
+            "Survey No./ Sub-Division No.": "132/అ/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024962 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.1500",
+            "Survey No./ Sub-Division No.": "132/అ/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -20297,14 +20389,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.0250",
-            "Survey No./ Sub-Division No.": "133/అ1/2/1/1",
+            "Total Extent (Ac. Gts)": "0.0075",
+            "Survey No./ Sub-Division No.": "133/అ1/2/1/1/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024948 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0175",
+            "Survey No./ Sub-Division No.": "133/అ1/2/1/1/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -20389,14 +20504,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.2275",
-            "Survey No./ Sub-Division No.": "133/అ2",
+            "Total Extent (Ac. Gts)": "0.1500",
+            "Survey No./ Sub-Division No.": "133/అ2/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024951 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0775",
+            "Survey No./ Sub-Division No.": "133/అ2/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -20412,14 +20550,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.2275",
-            "Survey No./ Sub-Division No.": "133/అ3",
+            "Total Extent (Ac. Gts)": "0.1500",
+            "Survey No./ Sub-Division No.": "133/అ3/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024953 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0775",
+            "Survey No./ Sub-Division No.": "133/అ3/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -20435,14 +20596,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "1.1500",
-            "Survey No./ Sub-Division No.": "133/ఆ",
+            "Total Extent (Ac. Gts)": "1.0050",
+            "Survey No./ Sub-Division No.": "133/ఆ/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024960 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.1450",
+            "Survey No./ Sub-Division No.": "133/ఆ/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -20458,14 +20642,14 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.0200",
-            "Survey No./ Sub-Division No.": "133/ఇ1",
+            "Total Extent (Ac. Gts)": "0.0025",
+            "Survey No./ Sub-Division No.": "133/ఇ1/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024950 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
         },
         "empty": false
     },
@@ -20481,14 +20665,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.1700",
-            "Survey No./ Sub-Division No.": "133/ఇ/1/1/1",
+            "Total Extent (Ac. Gts)": "0.1100",
+            "Survey No./ Sub-Division No.": "133/ఇ/1/1/1/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024964 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0600",
+            "Survey No./ Sub-Division No.": "133/ఇ/1/1/1/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -20543,6 +20750,29 @@
             "District": "Siddipet | సిద్దిపేట్",
             "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
             "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0175",
+            "Survey No./ Sub-Division No.": "133/ఇ1/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
             "Pattadar / Authorised Person Name": "కొత్తపల్లి బాబు / KOTTAPALLY BABU",
             "Father / Husband's Name": "రంగయ్య / KOTTAPALLY RANGAIAH",
             "Khata Number": "60361",
@@ -20566,21 +20796,21 @@
             "District": "Siddipet | సిద్దిపేట్",
             "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
             "Village": "Nacharpalle | నాంచారిపల్లి",
-            "Pattadar / Authorised Person Name": "అష్టకాల కిరణ్ సాగర్ రావు / అష్టకాల కిరణ్ సాగర్ రావు",
-            "Father / Husband's Name": "ఎ వి భాస్కర్ రావు / ఎ వి భాస్కర్ రావు",
-            "Khata Number": "298",
-            "PPB Number": "T10190******",
-            "eKYC Status": "Aadhaar available & e-KYC completed"
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
         },
         "landDetails": {
             "Total Extent (Ac. Gts)": "0.0100",
             "Survey No./ Sub-Division No.": "134/అ1",
-            "Land Status": "Digital Signed",
+            "Land Status": "Signed as Notional Khata - Railways",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
-            "Land Type": "Agriculture Lands",
+            "Land Type": "Notional Khata - Railways",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024967 is created by system and is pending for Collector approval"
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -20589,21 +20819,21 @@
             "District": "Siddipet | సిద్దిపేట్",
             "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
             "Village": "Nacharpalle | నాంచారిపల్లి",
-            "Pattadar / Authorised Person Name": "అష్టకాల వినోద్ కుమార్ రావు / అష్టకాల వినోద్ కుమార్ రావు",
-            "Father / Husband's Name": "భాస్కర్ రావు / భాస్కర్ రావు",
-            "Khata Number": "364",
-            "PPB Number": "T10190******",
-            "eKYC Status": "Aadhaar available & e-KYC completed"
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
         },
         "landDetails": {
             "Total Extent (Ac. Gts)": "0.0100",
             "Survey No./ Sub-Division No.": "134/అ2",
-            "Land Status": "Digital Signed",
+            "Land Status": "Signed as Notional Khata - Railways",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
-            "Land Type": "Agriculture Lands",
+            "Land Type": "Notional Khata - Railways",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024966 is created by system and is pending for Collector approval"
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -20612,21 +20842,21 @@
             "District": "Siddipet | సిద్దిపేట్",
             "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
             "Village": "Nacharpalle | నాంచారిపల్లి",
-            "Pattadar / Authorised Person Name": "అష్టకాల రామకృష్ణా రావు / అష్టకాల రామకృష్ణా రావు",
-            "Father / Husband's Name": "నర్సింహ్మ రావు / నర్సింహ్మ రావు",
-            "Khata Number": "143",
-            "PPB Number": "T10190******",
-            "eKYC Status": "Aadhaar available & e-KYC completed"
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
         },
         "landDetails": {
             "Total Extent (Ac. Gts)": "0.0200",
             "Survey No./ Sub-Division No.": "134/ఇ",
-            "Land Status": "Digital Signed",
+            "Land Status": "Signed as Notional Khata - Railways",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
-            "Land Type": "Agriculture Lands",
+            "Land Type": "Notional Khata - Railways",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024965 is created by system and is pending for Collector approval"
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -20750,21 +20980,21 @@
             "District": "Siddipet | సిద్దిపేట్",
             "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
             "Village": "Nacharpalle | నాంచారిపల్లి",
-            "Pattadar / Authorised Person Name": "పెర్గు మల్లేశం / పెర్గు మల్లేశం",
-            "Father / Husband's Name": "రామయ్య / రామయ్య",
-            "Khata Number": "71",
-            "PPB Number": "T10190******",
-            "eKYC Status": "Aadhaar available & e-KYC completed"
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
         },
         "landDetails": {
             "Total Extent (Ac. Gts)": "0.0475",
             "Survey No./ Sub-Division No.": "135/ఇ2/1/1",
-            "Land Status": "Digital Signed",
+            "Land Status": "Signed as Notional Khata - Railways",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
-            "Land Type": "Agriculture Lands",
+            "Land Type": "Notional Khata - Railways",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024970 is created by system and is pending for Collector approval"
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -20826,14 +21056,14 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.2400",
-            "Survey No./ Sub-Division No.": "135/ఈ",
+            "Total Extent (Ac. Gts)": "0.0550",
+            "Survey No./ Sub-Division No.": "135/ఈ/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024968 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
         },
         "empty": false
     },
@@ -20842,21 +21072,44 @@
             "District": "Siddipet | సిద్దిపేట్",
             "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
             "Village": "Nacharpalle | నాంచారిపల్లి",
-            "Pattadar / Authorised Person Name": "పెర్గు మల్లేశం / పెర్గు మల్లేశం",
-            "Father / Husband's Name": "రామయ్య / రామయ్య",
-            "Khata Number": "71",
-            "PPB Number": "T10190******",
-            "eKYC Status": "Aadhaar available & e-KYC completed"
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.1850",
+            "Survey No./ Sub-Division No.": "135/ఈ/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
         },
         "landDetails": {
             "Total Extent (Ac. Gts)": "0.1175",
             "Survey No./ Sub-Division No.": "135/ఉ",
-            "Land Status": "Digital Signed",
+            "Land Status": "Signed as Notional Khata - Railways",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
-            "Land Type": "Agriculture Lands",
+            "Land Type": "Notional Khata - Railways",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024970 is created by system and is pending for Collector approval"
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -21539,14 +21792,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "1.2800",
-            "Survey No./ Sub-Division No.": "141",
+            "Total Extent (Ac. Gts)": "1.1400",
+            "Survey No./ Sub-Division No.": "141/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024926 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.1400",
+            "Survey No./ Sub-Division No.": "141/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -21585,14 +21861,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.0500",
-            "Survey No./ Sub-Division No.": "142/అఆ/2",
+            "Total Extent (Ac. Gts)": "0.0250",
+            "Survey No./ Sub-Division No.": "142/అఆ/2/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Magani/ Thari",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024958 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0250",
+            "Survey No./ Sub-Division No.": "142/అఆ/2/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Magani/ Thari",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -21647,21 +21946,21 @@
             "District": "Siddipet | సిద్దిపేట్",
             "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
             "Village": "Nacharpalle | నాంచారిపల్లి",
-            "Pattadar / Authorised Person Name": "బోనాల బిక్షపతి / బోనాల బిక్షపతి",
-            "Father / Husband's Name": "సాయిలు / సాయిలు",
-            "Khata Number": "323",
-            "PPB Number": "T10190******",
-            "eKYC Status": "Aadhaar available & e-KYC completed"
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
         },
         "landDetails": {
             "Total Extent (Ac. Gts)": "0.0050",
             "Survey No./ Sub-Division No.": "142/ఇ/1/2/2",
-            "Land Status": "Digital Signed",
+            "Land Status": "Signed as Notional Khata - Railways",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
-            "Land Type": "Agriculture Lands",
+            "Land Type": "Notional Khata - Railways",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024956 is created by system and is pending for Collector approval"
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -22084,21 +22383,21 @@
             "District": "Siddipet | సిద్దిపేట్",
             "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
             "Village": "Nacharpalle | నాంచారిపల్లి",
-            "Pattadar / Authorised Person Name": "కొర్మి కొండవ్వ / కొర్మి కొండవ్వ",
-            "Father / Husband's Name": "బాల్ రంగయ్య / బాల్ రంగయ్య",
-            "Khata Number": "330",
-            "PPB Number": "T10190******",
-            "eKYC Status": "Aadhaar available & e-KYC completed"
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
         },
         "landDetails": {
             "Total Extent (Ac. Gts)": "0.0050",
             "Survey No./ Sub-Division No.": "143/లు",
-            "Land Status": "Digital Signed",
+            "Land Status": "Signed as Notional Khata - Railways",
             "Nature of Land": "Patta",
             "Classification of Land": "Magani/ Thari",
-            "Land Type": "Agriculture Lands",
+            "Land Type": "Notional Khata - Railways",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024958 is created by system and is pending for Collector approval"
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -22107,21 +22406,21 @@
             "District": "Siddipet | సిద్దిపేట్",
             "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
             "Village": "Nacharpalle | నాంచారిపల్లి",
-            "Pattadar / Authorised Person Name": "కొర్మి కొండవ్వ / కొర్మి కొండవ్వ",
-            "Father / Husband's Name": "బాల్ రంగయ్య / బాల్ రంగయ్య",
-            "Khata Number": "330",
-            "PPB Number": "T10190******",
-            "eKYC Status": "Aadhaar available & e-KYC completed"
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
         },
         "landDetails": {
             "Total Extent (Ac. Gts)": "0.0100",
             "Survey No./ Sub-Division No.": "143/లూ",
-            "Land Status": "Digital Signed",
+            "Land Status": "Signed as Notional Khata - Railways",
             "Nature of Land": "Patta",
             "Classification of Land": "Magani/ Thari",
-            "Land Type": "Agriculture Lands",
+            "Land Type": "Notional Khata - Railways",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024958 is created by system and is pending for Collector approval"
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -22229,14 +22528,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "3.3900",
-            "Survey No./ Sub-Division No.": "145",
+            "Total Extent (Ac. Gts)": "3.1300",
+            "Survey No./ Sub-Division No.": "145/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024928 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.2600",
+            "Survey No./ Sub-Division No.": "145/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -23395,21 +23717,21 @@
             "District": "Siddipet | సిద్దిపేట్",
             "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
             "Village": "Nacharpalle | నాంచారిపల్లి",
-            "Pattadar / Authorised Person Name": "కొత్తపల్లి రాములు / కొత్తపల్లి రాములు",
-            "Father / Husband's Name": "నర్సయ్య / నర్సయ్య",
-            "Khata Number": "146",
-            "PPB Number": "T10190******",
-            "eKYC Status": "Aadhaar available & e-KYC completed"
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
         },
         "landDetails": {
             "Total Extent (Ac. Gts)": "0.0600",
-            "Survey No./ Sub-Division No.": "157/ఇ1/2",
-            "Land Status": "Digital Signed",
+            "Survey No./ Sub-Division No.": "157/ఇ1/3",
+            "Land Status": "Signed as Notional Khata - Railways",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
-            "Land Type": "Agriculture Lands",
+            "Land Type": "Notional Khata - Railways",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024896 is created by system and is pending for Collector approval"
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -23425,14 +23747,14 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.0800",
-            "Survey No./ Sub-Division No.": "157/ఇ2",
+            "Total Extent (Ac. Gts)": "0.0200",
+            "Survey No./ Sub-Division No.": "157/ఇ2/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024899 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
         },
         "empty": false
     },
@@ -23441,21 +23763,67 @@
             "District": "Siddipet | సిద్దిపేట్",
             "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
             "Village": "Nacharpalle | నాంచారిపల్లి",
-            "Pattadar / Authorised Person Name": "కొత్తపల్లి యాదయ్య / కొత్తపల్లి యాదయ్య",
-            "Father / Husband's Name": "నర్సయ్య / నర్సయ్య",
-            "Khata Number": "207",
-            "PPB Number": "T10190******",
-            "eKYC Status": "Aadhaar available & e-KYC completed"
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0600",
+            "Survey No./ Sub-Division No.": "157/ఇ2/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
         },
         "landDetails": {
             "Total Extent (Ac. Gts)": "0.0750",
             "Survey No./ Sub-Division No.": "158/అ/3",
-            "Land Status": "Digital Signed",
+            "Land Status": "Signed as Notional Khata - Railways",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
-            "Land Type": "Agriculture Lands",
+            "Land Type": "Notional Khata - Railways",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024894 is created by system and is pending for Collector approval"
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0350",
+            "Survey No./ Sub-Division No.": "158/ఆ/1",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -23467,18 +23835,64 @@
             "Pattadar / Authorised Person Name": "కొత్తపల్లి రాములు / కొత్తపల్లి రాములు",
             "Father / Husband's Name": "నర్సయ్య / నర్సయ్య",
             "Khata Number": "146",
+            "PPB Number": "T10190******",
+            "eKYC Status": "Aadhaar available & e-KYC completed"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0325",
+            "Survey No./ Sub-Division No.": "159/అ1/1",
+            "Land Status": "Digital Signed",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Agriculture Lands",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0575",
+            "Survey No./ Sub-Division No.": "159/అ1/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "కొత్తపల్లి యాదయ్య / కొత్తపల్లి యాదయ్య",
+            "Father / Husband's Name": "నర్సయ్య / నర్సయ్య",
+            "Khata Number": "207",
             "PPB Number": "T10190******",
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
             "Total Extent (Ac. Gts)": "0.0350",
-            "Survey No./ Sub-Division No.": "158/ఆ",
+            "Survey No./ Sub-Division No.": "159/అ2/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024892 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
         },
         "empty": false
     },
@@ -23487,44 +23901,21 @@
             "District": "Siddipet | సిద్దిపేట్",
             "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
             "Village": "Nacharpalle | నాంచారిపల్లి",
-            "Pattadar / Authorised Person Name": "కొత్తపల్లి రాములు / కొత్తపల్లి రాములు",
-            "Father / Husband's Name": "నర్సయ్య / నర్సయ్య",
-            "Khata Number": "146",
-            "PPB Number": "T10190******",
-            "eKYC Status": "Aadhaar available & e-KYC completed"
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.0900",
-            "Survey No./ Sub-Division No.": "159/అ1",
-            "Land Status": "Digital Signed",
+            "Total Extent (Ac. Gts)": "0.0550",
+            "Survey No./ Sub-Division No.": "159/అ2/2",
+            "Land Status": "Signed as Notional Khata - Railways",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
-            "Land Type": "Agriculture Lands",
+            "Land Type": "Notional Khata - Railways",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024898 is created by system and is pending for Collector approval"
-        },
-        "empty": false
-    },
-    {
-        "pattadarDetails": {
-            "District": "Siddipet | సిద్దిపేట్",
-            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
-            "Village": "Nacharpalle | నాంచారిపల్లి",
-            "Pattadar / Authorised Person Name": "కొత్తపల్లి యాదయ్య / కొత్తపల్లి యాదయ్య",
-            "Father / Husband's Name": "నర్సయ్య / నర్సయ్య",
-            "Khata Number": "207",
-            "PPB Number": "T10190******",
-            "eKYC Status": "Aadhaar available & e-KYC completed"
-        },
-        "landDetails": {
-            "Total Extent (Ac. Gts)": "0.0900",
-            "Survey No./ Sub-Division No.": "159/అ2",
-            "Land Status": "Digital Signed",
-            "Nature of Land": "Patta",
-            "Classification of Land": "Metta/ Dry",
-            "Land Type": "Agriculture Lands",
-            "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024903 is created by system and is pending for Collector approval"
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -23540,14 +23931,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.0900",
-            "Survey No./ Sub-Division No.": "159/ఆ",
+            "Total Extent (Ac. Gts)": "0.0550",
+            "Survey No./ Sub-Division No.": "159/ఆ/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024908 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0350",
+            "Survey No./ Sub-Division No.": "159/ఆ/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -23563,14 +23977,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.0550",
-            "Survey No./ Sub-Division No.": "159/ఇ1",
+            "Total Extent (Ac. Gts)": "0.0200",
+            "Survey No./ Sub-Division No.": "159/ఇ1/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024906 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0350",
+            "Survey No./ Sub-Division No.": "159/ఇ1/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -23609,14 +24046,60 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.2500",
-            "Survey No./ Sub-Division No.": "160/అ",
+            "Total Extent (Ac. Gts)": "0.2000",
+            "Survey No./ Sub-Division No.": "160/అ/1/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024911 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0150",
+            "Survey No./ Sub-Division No.": "160/అ/1/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0350",
+            "Survey No./ Sub-Division No.": "160/అ/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -23648,21 +24131,21 @@
             "District": "Siddipet | సిద్దిపేట్",
             "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
             "Village": "Nacharpalle | నాంచారిపల్లి",
-            "Pattadar / Authorised Person Name": "కొత్తపల్లి కుమ్మరి దుర్గయ్య / కొత్తపల్లి కుమ్మరి దుర్గయ్య",
-            "Father / Husband's Name": "రాజయ్య / రాజయ్య",
-            "Khata Number": "42",
-            "PPB Number": "T10190******",
-            "eKYC Status": "Aadhaar available & e-KYC completed"
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
         },
         "landDetails": {
             "Total Extent (Ac. Gts)": "0.0300",
-            "Survey No./ Sub-Division No.": "160/ఇ",
-            "Land Status": "Digital Signed",
+            "Survey No./ Sub-Division No.": "160/ఇ/1",
+            "Land Status": "Signed as Notional Khata - Railways",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
-            "Land Type": "Agriculture Lands",
+            "Land Type": "Notional Khata - Railways",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024906 is created by system and is pending for Collector approval"
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -23678,14 +24161,14 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.1500",
-            "Survey No./ Sub-Division No.": "161/అ1",
+            "Total Extent (Ac. Gts)": "0.1150",
+            "Survey No./ Sub-Division No.": "161/అ1/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024973 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
         },
         "empty": false
     },
@@ -23694,21 +24177,44 @@
             "District": "Siddipet | సిద్దిపేట్",
             "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
             "Village": "Nacharpalle | నాంచారిపల్లి",
-            "Pattadar / Authorised Person Name": "G ప్రణీత్ / G ప్రణీత్",
-            "Father / Husband's Name": "G రాజు / G రాజు",
-            "Khata Number": "60124",
-            "PPB Number": "T10190******",
-            "eKYC Status": "Aadhaar available & e-KYC completed"
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0350",
+            "Survey No./ Sub-Division No.": "161/అ1/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
         },
         "landDetails": {
             "Total Extent (Ac. Gts)": "0.0850",
             "Survey No./ Sub-Division No.": "161/ఆ1/1",
-            "Land Status": "Digital Signed",
+            "Land Status": "Signed as Notional Khata - Railways",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
-            "Land Type": "Agriculture Lands",
+            "Land Type": "Notional Khata - Railways",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024971 is created by system and is pending for Collector approval"
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -24598,14 +25104,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "1.0400",
-            "Survey No./ Sub-Division No.": "164/ఆ",
+            "Total Extent (Ac. Gts)": "0.3000",
+            "Survey No./ Sub-Division No.": "164/ఆ/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024931 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.1400",
+            "Survey No./ Sub-Division No.": "164/ఆ/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -24644,14 +25173,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "1.2250",
-            "Survey No./ Sub-Division No.": "164/ఇ1/2/1",
+            "Total Extent (Ac. Gts)": "1.1500",
+            "Survey No./ Sub-Division No.": "164/ఇ1/2/1/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024974 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0750",
+            "Survey No./ Sub-Division No.": "164/ఇ1/2/1/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -24959,21 +25511,21 @@
             "District": "Siddipet | సిద్దిపేట్",
             "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
             "Village": "Nacharpalle | నాంచారిపల్లి",
-            "Pattadar / Authorised Person Name": "కొర్మి ప్రమీల / కొర్మి ప్రమీల",
-            "Father / Husband's Name": "రమేశ్ / రమేశ్",
-            "Khata Number": "307",
-            "PPB Number": "T10190******",
-            "eKYC Status": "Aadhaar available & e-KYC completed"
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
         },
         "landDetails": {
             "Total Extent (Ac. Gts)": "0.2500",
             "Survey No./ Sub-Division No.": "166/ఇ",
-            "Land Status": "Digital Signed",
+            "Land Status": "Signed as Notional Khata - Railways",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
-            "Land Type": "Agriculture Lands",
+            "Land Type": "Notional Khata - Railways",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024935 is created by system and is pending for Collector approval"
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -25028,21 +25580,21 @@
             "District": "Siddipet | సిద్దిపేట్",
             "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
             "Village": "Nacharpalle | నాంచారిపల్లి",
-            "Pattadar / Authorised Person Name": "కొర్మి ప్రమీల / కొర్మి ప్రమీల",
-            "Father / Husband's Name": "రమేశ్ / రమేశ్",
-            "Khata Number": "307",
-            "PPB Number": "T10190******",
-            "eKYC Status": "Aadhaar available & e-KYC completed"
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
         },
         "landDetails": {
             "Total Extent (Ac. Gts)": "0.2500",
             "Survey No./ Sub-Division No.": "166/ఈ2",
-            "Land Status": "Digital Signed",
+            "Land Status": "Signed as Notional Khata - Railways",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
-            "Land Type": "Agriculture Lands",
+            "Land Type": "Notional Khata - Railways",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024935 is created by system and is pending for Collector approval"
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -25196,14 +25748,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.1850",
-            "Survey No./ Sub-Division No.": "167/ఇ1",
+            "Total Extent (Ac. Gts)": "0.0700",
+            "Survey No./ Sub-Division No.": "167/ఇ1/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024938 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.1150",
+            "Survey No./ Sub-Division No.": "167/ఇ1/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -25242,14 +25817,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.1100",
-            "Survey No./ Sub-Division No.": "168/అ",
+            "Total Extent (Ac. Gts)": "0.1050",
+            "Survey No./ Sub-Division No.": "168/అ/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024941 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0050",
+            "Survey No./ Sub-Division No.": "168/అ/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -25311,14 +25909,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.2700",
-            "Survey No./ Sub-Division No.": "169/ఆ",
+            "Total Extent (Ac. Gts)": "0.1825",
+            "Survey No./ Sub-Division No.": "169/ఆ/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024943 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0875",
+            "Survey No./ Sub-Division No.": "169/ఆ/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -25334,14 +25955,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.1200",
-            "Survey No./ Sub-Division No.": "169/ఇ/1",
+            "Total Extent (Ac. Gts)": "0.1050",
+            "Survey No./ Sub-Division No.": "169/ఇ/1/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024917 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0150",
+            "Survey No./ Sub-Division No.": "169/ఇ/1/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -25518,14 +26162,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "1.0350",
-            "Survey No./ Sub-Division No.": "170/అ1",
+            "Total Extent (Ac. Gts)": "0.3875",
+            "Survey No./ Sub-Division No.": "170/అ1/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024975 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0475",
+            "Survey No./ Sub-Division No.": "170/అ1/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -25633,14 +26300,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.3200",
-            "Survey No./ Sub-Division No.": "170/ఈ/1/1",
+            "Total Extent (Ac. Gts)": "0.2400",
+            "Survey No./ Sub-Division No.": "170/ఈ/1/1/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024946 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0800",
+            "Survey No./ Sub-Division No.": "170/ఈ/1/1/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -26093,14 +26783,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "1.1200",
-            "Survey No./ Sub-Division No.": "173/అ",
+            "Total Extent (Ac. Gts)": "0.3000",
+            "Survey No./ Sub-Division No.": "173/అ/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024883 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.2200",
+            "Survey No./ Sub-Division No.": "173/అ/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
@@ -26116,14 +26829,37 @@
             "eKYC Status": "Aadhaar available & e-KYC completed"
         },
         "landDetails": {
-            "Total Extent (Ac. Gts)": "0.1800",
-            "Survey No./ Sub-Division No.": "173/ఆ1/1",
+            "Total Extent (Ac. Gts)": "0.1000",
+            "Survey No./ Sub-Division No.": "173/ఆ1/1/1",
             "Land Status": "Digital Signed",
             "Nature of Land": "Patta",
             "Classification of Land": "Metta/ Dry",
             "Land Type": "Agriculture Lands",
             "Market value of Survey no.(in INR)": "675000.00",
-            "Transaction Status": "Grievance related to acquired lands with transaction id LAG2600024886 is created by system and is pending for Collector approval"
+            "Transaction Status": "--"
+        },
+        "empty": false
+    },
+    {
+        "pattadarDetails": {
+            "District": "Siddipet | సిద్దిపేట్",
+            "Mandal": "Siddipet (Urban) | సిద్దిపేట (అర్బన్)",
+            "Village": "Nacharpalle | నాంచారిపల్లి",
+            "Pattadar / Authorised Person Name": "Railways / Railways",
+            "Father / Husband's Name": "Railways / Railways",
+            "Khata Number": "20002301",
+            "PPB Number": "Passbook number not available",
+            "eKYC Status": "Aadhaar not available"
+        },
+        "landDetails": {
+            "Total Extent (Ac. Gts)": "0.0800",
+            "Survey No./ Sub-Division No.": "173/ఆ1/1/2",
+            "Land Status": "Signed as Notional Khata - Railways",
+            "Nature of Land": "Patta",
+            "Classification of Land": "Metta/ Dry",
+            "Land Type": "Notional Khata - Railways",
+            "Market value of Survey no.(in INR)": "675000.00",
+            "Transaction Status": "Survey no / Sub-division no is marked as Govt Land"
         },
         "empty": false
     },
