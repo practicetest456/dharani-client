@@ -478,6 +478,58 @@ Important practical notes:
 - It uses outbound HTTP calls to a third-party site and depends on that site’s current behavior.
 - The app is best understood as a scraping/integration client, not a general API server.
 
+# ROR 1-B PDF  (pure Java - no browser, no extra dependency, no licence issue)
+
+Open:  http://localhost:8080/api/ror/pdf
+
+## Setup (2 minutes)
+1. If you added the Playwright line to build.gradle earlier -> DELETE that line. No build.gradle change is needed now.
+2. Delete the old file  src/main/java/com/example/dharani/ror/RorPdfService.java  (it used Playwright).
+3. Copy the `src` folder of this package into the project root (merge; overwrite RorController.java / RorRecord.java).
+4. Gradle > Refresh (Eclipse) and run DharaniClientApplication.
+
+## What is new
+src/main/java/com/example/dharani/ror/
+  RorController        GET /api/ror/pdf   (?fasli= &khataNumber= &surveyNo= &download=true)
+  RorService           fasli / year / date / header values
+  RorDataRepository    reads ror-data.json, cached, auto-reloads when the file is edited
+  RorRecord, FasliCalendar
+  pdf/Ror1BPdfRenderer page layout (title, date, info block, table, repeated header on every page)
+  pdf/TeluguText       Telugu shaping with the JDK engine + bundled Noto Sans Telugu font
+  pdf/PdfWriter        small streaming PDF writer
+src/main/resources/fonts/   Noto Sans Telugu Regular + Bold (SIL Open Font License - free for any use, see OFL.txt)
+src/main/resources/ror-data.json
+
+## Settings (all optional)
+Put these in src/main/resources/application.properties (or the same keys in application.yml):
+
+    ror.data-location=file:/data/ror.json      # use an external JSON instead of the bundled one
+    spring.mvc.async.request-timeout=120s      # only needed if one PDF takes longer than 30 seconds
+
+application.yml form:
+
+    ror:
+      data-location: file:/data/ror.json
+    spring:
+      mvc:
+        async:
+          request-timeout: 120s
+
+Why the timeout line exists: the PDF is streamed through an asynchronous request, and the embedded Tomcat
+cuts any async request after 30 seconds by default. Normal files take a few seconds (50,000 rows ~ 6 s), so
+you will not need it. Add it only for extremely large files.
+
+## Copy / search
+Every line of text carries its real Unicode text (/ActualText) and each embedded font has a ToUnicode map.
+Tested with Poppler (pdftotext): copied / extracted Telugu and search matches are exact. Adobe Acrobat,
+Chrome and Edge also read /ActualText. Viewers that ignore it (for example Firefox's built-in viewer) fall back
+to the ToUnicode map, which is correct for letters but can mis-order some conjunct letters.
+
+## Notes
+- The PDF is streamed page by page: memory stays small for very large files.
+- Land type names: only "Metta/ Dry" is translated (from your specimen). Add more in LAND_DESCRIPTION
+  in Ror1BPdfRenderer; unknown values are printed as they are.
+
 ## Summary
 
 This repository is a Spring Boot integration client for Telangana Dharani/Bhubharati services. It collects survey numbers and khata numbers, and it retrieves land/public-data details using browser-like HTTP requests and HTML parsing. The code demonstrates a layered design built around Spring configuration properties, Java records, and HTTP client integration.
