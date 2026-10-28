@@ -8,8 +8,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.springframework.stereotype.Component;
 
-import com.example.dharani.masterdata.claud.mandal.MasterData;
-import com.example.dharani.masterdata.claud.mandal.MasterData.Item;
+import com.example.dharani.masterdata.claud.master.MasterData;
+import com.example.dharani.masterdata.claud.master.MasterData.Item;
 
 @Component
 public class MasterDataParser {
