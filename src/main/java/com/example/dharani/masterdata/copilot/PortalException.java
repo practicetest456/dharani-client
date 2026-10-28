@@ -1,4 +1,4 @@
-package com.example.dharani.masterdata;
+package com.example.dharani.masterdata.copilot;
 
 /** The Bhubharati portal could not be reached or did not return usable data. */
 public class PortalException extends RuntimeException {

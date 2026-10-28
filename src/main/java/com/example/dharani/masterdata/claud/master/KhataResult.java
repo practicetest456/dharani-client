@@ -1,4 +1,4 @@
-package com.example.dharani.service;
+package com.example.dharani.masterdata.claud.master;
 
 import java.util.List;
 

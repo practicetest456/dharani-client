@@ -1,11 +1,11 @@
-package com.example.dharani.masterdata;
+package com.example.dharani.masterdata.copilot;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.example.dharani.masterdata.MandalMaster.Mandal;
+import com.example.dharani.masterdata.copilot.MandalMaster.Mandal;
 
 /**
  * Turns the portal's dropdown fragment

@@ -14,13 +14,13 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import com.example.dharani.common.model.Ror1BLandDetails;
+import com.example.dharani.masterdata.claud.master.KhataResult;
+import com.example.dharani.masterdata.claud.master.KhataService;
 import com.example.dharani.publicdata.client.PublicDataClient;
 import com.example.dharani.publicdata.config.PublicDataProperties;
 import com.example.dharani.publicdata.encryption.BhubharatiSurveyNosEncryptor;
 import com.example.dharani.publicdata.model.PublicDataRequest;
 import com.example.dharani.publicdata.model.PublicDataResponse;
-import com.example.dharani.service.KhataResult;
-import com.example.dharani.service.KhataService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Service

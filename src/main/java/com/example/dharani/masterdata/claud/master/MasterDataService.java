@@ -1,4 +1,4 @@
-package com.example.dharani.masterdata.claud.mandal;
+package com.example.dharani.masterdata.claud.master;
 
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -9,8 +9,6 @@ import org.springframework.stereotype.Service;
 import com.example.dharani.masterdata.claud.common.MasterDataParser;
 import com.example.dharani.publicdata.client.PublicDataClient;
 import com.example.dharani.publicdata.model.PublicDataResponse;
-import com.example.dharani.service.KhataResult;
-import com.example.dharani.service.KhataService;
 
 /**
  * Mandal master data per district.

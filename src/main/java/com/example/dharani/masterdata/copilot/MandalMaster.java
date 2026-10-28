@@ -1,4 +1,4 @@
-package com.example.dharani.masterdata;
+package com.example.dharani.masterdata.copilot;
 
 import java.util.List;
 

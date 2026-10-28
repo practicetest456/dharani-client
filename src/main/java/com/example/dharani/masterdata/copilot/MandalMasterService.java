@@ -1,4 +1,4 @@
-package com.example.dharani.masterdata;
+package com.example.dharani.masterdata.copilot;
 
 import java.time.Clock;
 import java.time.Duration;
@@ -13,8 +13,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import com.example.dharani.masterdata.MandalMaster.Mandal;
-import com.example.dharani.masterdata.MandalMaster.Metadata;
+import com.example.dharani.masterdata.copilot.MandalMaster.Mandal;
+import com.example.dharani.masterdata.copilot.MandalMaster.Metadata;
+
 
 /**
  * Mandal master data per district. The list hardly ever changes, so it is cached in memory

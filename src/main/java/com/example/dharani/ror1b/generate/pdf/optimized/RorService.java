@@ -24,13 +24,13 @@ import org.springframework.stereotype.Service;
 
 import com.example.dharani.common.model.Ror1BLandDetails;
 import com.example.dharani.common.util.CommonUtils;
-import com.example.dharani.masterdata.claud.mandal.MasterData;
-import com.example.dharani.masterdata.claud.mandal.MasterDataService;
+import com.example.dharani.masterdata.claud.master.KhataResult;
+import com.example.dharani.masterdata.claud.master.KhataService;
+import com.example.dharani.masterdata.claud.master.MasterData;
+import com.example.dharani.masterdata.claud.master.MasterDataService;
 import com.example.dharani.publicdata.service.PublicDataService;
 import com.example.dharani.ror1b.generate.pdf.optimized.pdfrenderer.Ror1BHeader;
 import com.example.dharani.ror1b.generate.pdf.optimized.pdfrenderer.Ror1BPdfRenderer;
-import com.example.dharani.service.KhataResult;
-import com.example.dharani.service.KhataService;
 
 @Service("lessSizePdfRorService")
 public class RorService {

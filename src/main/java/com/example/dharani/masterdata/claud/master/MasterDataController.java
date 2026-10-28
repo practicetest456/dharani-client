@@ -1,4 +1,4 @@
-package com.example.dharani.masterdata.claud.mandal;
+package com.example.dharani.masterdata.claud.master;
 
 import java.util.List;
 
@@ -8,8 +8,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.dharani.publicdata.model.PublicDataResponse;
-import com.example.dharani.service.KhataResult;
-import com.example.dharani.service.KhataService;
 
 /**
  * GET /api/bhubharati/mandals?district=10                          -> mandals of district 10 as JSON
