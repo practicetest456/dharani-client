@@ -76,6 +76,21 @@ public class PublicDataService {
 	}
 
 	public Ror1BLandDetails fetchParsed(PublicDataRequest r) {
+		if (r != null) {
+			String encryptedSearchData;
+			try {
+				encryptedSearchData = BhubharatiSurveyNosEncryptor.encrypt(r.searchData());
+				PublicDataRequest updatedRequest = new PublicDataRequest(r.villageId(), r.flagToSearch(),
+						encryptedSearchData, r.flagval(), r.district(), r.mandal(), r.divi(), r.khataNoIdselect(),
+						r.reqType(), r.captcha());
+				return parser.parse(fetch(updatedRequest).body());
+
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+		}
 		return parser.parse(fetch(r).body());
 	}
 
